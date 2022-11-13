@@ -2,7 +2,7 @@ import React from "react";
 import './Container.css';
 const Container =(props)=>{
     return(
-        <div className="main-container card">
+        <div className="main-container ">
             {props.children}
         </div>
     );

@@ -1,0 +1,42 @@
+.container-card
+{
+    background: linear-gradient(to right, #3ab19b, #4cbf91);
+    text-align: center;
+
+    border-radius:10px ;
+}
+.Card{
+    border-radius: 10px;
+    width: 14rem;
+    background-color: aliceblue;
+   padding: 20px;
+   margin-left: 10px;
+   margin-top: 20px;
+}
+.log
+{
+    display: flex;
+}
+.pr{
+    background-color: aliceblue;
+    display: none;
+}
+.h4:hover +p{
+    display: block;
+    
+
+}
+
+.link
+{
+    text-decoration: none;
+   
+}
+
+.card :hover 
+{
+   
+    background: linear-gradient(to right, #3ab19b, #4cbf91);
+    
+   
+}
