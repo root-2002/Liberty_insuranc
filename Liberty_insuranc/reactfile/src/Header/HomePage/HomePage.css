@@ -11,7 +11,7 @@ header {
 	margin: 20px;
 	border-radius: 50px;
 	padding: 20px;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.414), rgba(0, 0, 0, 0.801)), url(HomePageMainP.png);
+	background-image: linear-gradient(rgba(0, 0, 0, 0.414), rgba(0, 0, 0, 0.801)), url(../../../public/imgs/HomePageMainP.png);
 	height: 50%;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -47,4 +47,16 @@ padding-bottom: 7%;
 .banner-btn a:hover {
 	background: rgba(58, 170, 255, 0.925);
 	color: #000;
+}
+#inputGroupSelect01{
+	margin-left :5px ;
+}
+.col-sm-4{
+	border-radius:10px;
+}
+.col-sm-8{
+	border-radius: 10px;
+}
+.input-group-text{
+	margin-left: 20px;
 }
