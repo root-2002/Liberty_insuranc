@@ -11,7 +11,8 @@ export default function Footer() {
           rel="stylesheet"
         />
         <link rel="stylesheet" href="style.css" />
-        <link
+        
+        <link 
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
@@ -23,23 +24,23 @@ export default function Footer() {
             <h1>FIND US ON SOCIAL MEDIA</h1>
             <div className="social-icon">
               <a href="https://www.facebook.com/emad.selkhi.1" target="_blank">
-                <img src="C:\Users\emads\OneDrive\Desktop\Liberty_insuranc\Liberty_insuranc\reactfile\public\FooterPhoto\facebook-icon.png" />
+                <img src="/FooterPhoto/facebook-icon.png" />
               </a>
               <a href="https://www.whatsapp.com/">
-                <img src="C:\Users\emads\OneDrive\Desktop\Liberty_insuranc\Liberty_insuranc\reactfile\public\FooterPhoto\facebook-icon.png" />
+                <img src="/FooterPhoto/whatsapp-icon.png" />
               </a>
               <a href="https://www.instagram.com/emad_alselkhi/">
-                <img src="C:\Users\emads\OneDrive\Desktop\Liberty_insuranc\Liberty_insuranc\reactfile\public\FooterPhoto\facebook-icon.png" />
+                <img src="/FooterPhoto/instagram-icon.png" />
               </a>
               <a href="https://twitter.com/ESelkhi">
-                <img src="C:\Users\emads\OneDrive\Desktop\Liberty_insuranc\Liberty_insuranc\reactfile\public\FooterPhoto\facebook-icon.png" />
+                <img src="/FooterPhoto/twitter-icon.png" />
               </a>
             </div>
           </div>
         </section>
         {/*footer*/}
         <section id="footer">
-          <img src="/FooterPhoto/wave2.png" className="footer-img" />
+        <img src="/FooterPhoto/wave2.png" className="footer-img" />
           <div className="container">
             <div className="row">
               <div className="col-md-4 footer-box">
@@ -62,7 +63,7 @@ export default function Footer() {
                   <b>SUBSCRIBE</b>
                 </h5>
                 <p>
-                  <b>
+                    <b>
                     Don't miss to subscribe to our new feeds, kindly fill the
                     form below.
                   </b>
@@ -77,9 +78,10 @@ export default function Footer() {
             </div>
             <hr />
             <p className="copyright">
-              Copyright 2022 liprty. All Rights Reserved
+              Copyright 2022 Lgiprty. All Rights Reserved
             </p>
           </div>
+      
         </section>
       </div>
     </div>

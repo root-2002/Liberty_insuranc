@@ -20,7 +20,7 @@ body {
   transform: translateY(-10px);
 }
 #footer {
-  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
   color: #fff;
 }
 .footer-img {
@@ -51,9 +51,10 @@ hr {
   padding-bottom: 20px;
   text-align: center;
 }
-.col-md-4 {
+.col-md-4{
   margin-left: 124px;
   font-size: 18px;
+  text-align: center;
 }
 .col-md-4 .btn-primary {
   background-color: blue;
@@ -64,11 +65,11 @@ hr {
   background-color: #000000;
   border-color: black;
 }
-.col-md-4 h5 {
+.col-md-4 h5{
   font-size: 28px;
 }
-#P {
-  margin-top: 14px;
+#P{
+  margin-top:14px;
 }
 .car-img {
   width: 100px;

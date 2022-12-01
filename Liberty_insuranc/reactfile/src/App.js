@@ -1,16 +1,7 @@
-import "./App.css";
-import { Container } from "./compontents/index";
-import { Header, InsuranceDepartments, Footer } from "./section/index";
+import Footer from "./compontents/section/Footer/Footer";
+
 function App() {
-  return (
-    <>
-      <Header />
-      <Container>
-        <InsuranceDepartments />
-      </Container>
-      <Footer />
-    </>
-  );
+  return <Footer />;
 }
 
 export default App;
