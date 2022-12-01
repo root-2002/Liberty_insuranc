@@ -1,7 +1,6 @@
 import React from "react";
-import "./footer.css";
-
-export default function footer() {
+import "./Footer.css";
+export default function Footer() {
   return (
     <div>
       <div>
@@ -24,16 +23,16 @@ export default function footer() {
             <h1>FIND US ON SOCIAL MEDIA</h1>
             <div className="social-icon">
               <a href="https://www.facebook.com/emad.selkhi.1" target="_blank">
-                <img src="/FooterPhoto//facebook-icon.png" />
+                <img src="C:\Users\emads\OneDrive\Desktop\Liberty_insuranc\Liberty_insuranc\reactfile\public\FooterPhoto\facebook-icon.png" />
               </a>
               <a href="https://www.whatsapp.com/">
-                <img src="/FooterPhoto/whatsapp-icon.png" />
+                <img src="C:\Users\emads\OneDrive\Desktop\Liberty_insuranc\Liberty_insuranc\reactfile\public\FooterPhoto\facebook-icon.png" />
               </a>
               <a href="https://www.instagram.com/emad_alselkhi/">
-                <img src="/FooterPhoto//instagram-icon.png" />
+                <img src="C:\Users\emads\OneDrive\Desktop\Liberty_insuranc\Liberty_insuranc\reactfile\public\FooterPhoto\facebook-icon.png" />
               </a>
               <a href="https://twitter.com/ESelkhi">
-                <img src="/FooterPhoto//twitter-icon.png" />
+                <img src="C:\Users\emads\OneDrive\Desktop\Liberty_insuranc\Liberty_insuranc\reactfile\public\FooterPhoto\facebook-icon.png" />
               </a>
             </div>
           </div>
