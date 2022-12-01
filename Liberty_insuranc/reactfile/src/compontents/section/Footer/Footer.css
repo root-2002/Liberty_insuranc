@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#social-media {
+  background-color: #f8f9fa;
+  padding: 100px 0;
+}
+.social-icon img {
+  width: 60px;
+  transition: 0.5s;
+}
+.social-icon a:hover img {
+  transform: translateY(-10px);
+}
+#footer {
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  color: #fff;
+}
+.footer-img {
+  width: 100%;
+}
+.footer-box {
+  padding: 20px;
+}
+#par-font {
+  font-size: 20px;
+}
+.footer-box .form-control {
+  box-shadow: none !important;
+  border: none;
+  margin: auto;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+}
+.footer-box .btn-primary {
+  margin-top: 20px;
+}
+hr {
+  background-color: #fff;
+}
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.col-md-4 {
+  margin-left: 124px;
+  font-size: 18px;
+}
+.col-md-4 .btn-primary {
+  background-color: blue;
+  border-color: blue;
+  border-radius: 100px;
+}
+.col-md-4 .btn-primary:hover {
+  background-color: #000000;
+  border-color: black;
+}
+.col-md-4 h5 {
+  font-size: 28px;
+}
+#P {
+  margin-top: 14px;
+}
+.car-img {
+  width: 100px;
+  height: 100px;
+}
