@@ -17,6 +17,10 @@ h1{
     margin: 0 auto;
     text-align: right;
 }
-.Card:hover{
-background-color: rgb(10, 10, 240);
+.card{
+    margin: 4px;
+    border: 2px;
+}
+.card:hover{
+   border-color: black;
 }
