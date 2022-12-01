@@ -1,12 +1,12 @@
 import React from "react";
 import './Header.css'
-const Header =()=>{
+const Header =(props)=>{
     return(
-    
-<div>
-  Header
-  
-</div>
+       
+       <div className="main-header ">
+            {props.children}
+        </div>
+       
 
     );
 }
