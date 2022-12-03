@@ -1,8 +1,9 @@
-<<<<<<< HEAD
+
 import './App.css';
 import { Container } from './compontents/index'
-import {Header,InsuranceDepartments ,Footer } from './compontents/section/index';
+import {Header,InsuranceDepartments } from './compontents/section/index';
 import Navbar from './compontents/section/Header/Navbar/Navbar';
+import Footer from "./compontents/section/Footer/Footer";
 
 function App() {
   return (
@@ -16,12 +17,6 @@ function App() {
     <Footer/>
     </>
   );
-=======
-import Footer from "./compontents/section/Footer/Footer";
-
-function App() {
-  return <Footer />;
->>>>>>> origin/emad
 }
 
 export default App;
