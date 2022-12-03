@@ -1,27 +1,14 @@
-<<<<<<< HEAD
-import './App.css';
-import { Container } from './compontents/index'
-import {Header,InsuranceDepartments ,Footer } from './compontents/section/index';
-import Navbar from './compontents/section/Header/Navbar/Navbar';
+import React from 'react';
+import HomePage from './Header/HomePage/HomePage'
+import NewsHomePage from './Header/HomePage/NewsHomePage'
 
 function App() {
   return (
-    <>
-    <Header>
-     <Navbar/>
-    </Header>
-    <Container>
-      <InsuranceDepartments/>
-    </Container>
-    <Footer/>
-    </>
+    <div className="App">
+    <HomePage />
+    <NewsHomePage/>
+    </div>
   );
-=======
-import Footer from "./compontents/section/Footer/Footer";
-
-function App() {
-  return <Footer />;
->>>>>>> origin/emad
 }
 
 export default App;
