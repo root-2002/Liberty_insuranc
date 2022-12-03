@@ -9,9 +9,10 @@ export default function NewsHomePage() {
         <h1>Latest News</h1>
       
       </div>
-      <div className="container d-sm-flex p-2">
-      <div className="container d-flex p-2" id="con2">
-      <div class="card" style={{width: '18rem'}}>
+      
+   
+      <div className="container d-md-flex p-4" id="con2">
+      <div class="card">
   <img className="card-img-top" src="/imgs/News1.png" alt="img no.1"></img>
   <div className="card-body">
     <h5 className="card-title">Liberty Insurance Gets 20000 MSI Global Award</h5>
@@ -19,7 +20,7 @@ export default function NewsHomePage() {
     
   </div>
 </div>
-<div class="card" style={{width: '18rem'}}>
+<div class="card" >
   <img className="card-img-top" src="/imgs/News2.png" alt="img no.2"></img>
   <div className="card-body">
     <h5 className="card-title">Liberty Insurance and Freedom Bank signs Comprehensive insurance services.</h5>
@@ -27,7 +28,7 @@ export default function NewsHomePage() {
     
   </div>
 </div>
-<div className="card" style={{width: '18rem'}}>
+<div className="card" >
   <img className="card-img-top" src="/imgs/News3.png" alt="img no.3"></img>
   <div className="card-body">
     <h5 class="card-title">Liberty Insurance Compensates Rolex inc. With a check of 467.000$ after 3-Days of an accident</h5>
@@ -35,7 +36,7 @@ export default function NewsHomePage() {
     
   </div>
 </div>
-<div className="card" style={{width: '18rem'}}>
+<div className="card">
   <img className="card-img-top" src="/imgs/News4.png" alt="img no.4"></img>
   <div className="card-body">
     <h5 className="card-title">Liberty Insurance and The Bank of 1-State Released New services to make transitions easier on new clients</h5>
@@ -45,7 +46,7 @@ export default function NewsHomePage() {
 </div>
     </div>
 
-    </div>
+    
     </div>
   )
 }
