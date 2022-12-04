@@ -1,3 +1,4 @@
+
 import './InsuranceDepartments.css';
 import img from '../img/sedan.png'
 import img2 from '../img/life-insurance.png'
@@ -15,13 +16,11 @@ const InsuranceDepartments = () => {
         <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className='Card'>
             <div className='card-body'>
-              <Link to='/car'>
+            <Link to='/car'>
               <img src={img} alt='img'/>
                 <h4 className="h4">car insurance</h4>
                 <p className='pr'>We'll help you save hundreds</p>
               </Link>
-              
-              
             </div>
            
           </div>
