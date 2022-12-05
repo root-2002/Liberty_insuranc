@@ -1,13 +1,21 @@
-import React from 'react';
-import HomePage from './Header/HomePage/HomePage'
-import NewsHomePage from './Header/HomePage/NewsHomePage'
 
+import './App.css';
+import { Home ,Car,NotFound} from './compontents/index'
+import {BrowserRouter , Route ,Routes} from 'react-router-dom'
 function App() {
   return (
-    <div className="App">
-    <HomePage />
-    <NewsHomePage/>
-    </div>
+ 
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/Car' element={<Car/>} />
+         <Route path='*' element={<NotFound/>} />
+
+      </Routes>
+    
+    </BrowserRouter>
+    
+  
   );
 }
 

@@ -23,24 +23,24 @@ export default function Footer() {
           <div className="container text-center">
             <h1>FIND US ON SOCIAL MEDIA</h1>
             <div className="social-icon">
-              <a href="https://www.facebook.com/emad.selkhi.1" target="_blank">
-                <img src="/FooterPhoto/facebook-icon.png" />
+              <a href="https://www.facebook.com/emad.selkhi.1" target="_blank" rel="noreferrer">
+                <img src="/FooterPhoto/facebook-icon.png" alt="Facebook img" />
               </a>
               <a href="https://www.whatsapp.com/">
-                <img src="/FooterPhoto/whatsapp-icon.png" />
+                <img src="/FooterPhoto/whatsapp-icon.png" alt="WhatsApp img"/>
               </a>
               <a href="https://www.instagram.com/emad_alselkhi/">
-                <img src="/FooterPhoto/instagram-icon.png" />
+                <img src="/FooterPhoto/instagram-icon.png" alt="Instagram img"/>
               </a>
               <a href="https://twitter.com/ESelkhi">
-                <img src="/FooterPhoto/twitter-icon.png" />
+                <img src="/FooterPhoto/twitter-icon.png" alt="Twitter img"/>
               </a>
             </div>
           </div>
         </section>
         {/*footer*/}
         <section id="footer">
-        <img src="/FooterPhoto/wave2.png" className="footer-img" />
+        <img src="/FooterPhoto/wave2.png" className="footer-img"  alt="styling img "/>
           <div className="container">
             <div className="row">
               <div className="col-md-4 footer-box">
