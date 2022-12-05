@@ -8,11 +8,11 @@ body {
 	font-family: 'Poppins', sans-serif;
 }
 header {
-	margin: 20px;
-	border-radius: 50px;
+	
 	padding: 20px;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.414), rgba(0, 0, 0, 0.801)), url(../../../public/imgs/HomePageMainP1.png);
 	height: 50%;
+	width: 100%;
 	-webkit-background-size: cover;
 	background-size: cover;
 	background-position-y: 80%;

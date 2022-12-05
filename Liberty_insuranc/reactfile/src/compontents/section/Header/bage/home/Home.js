@@ -1,10 +1,13 @@
-import {InsuranceDepartments,ListOfFeaturesAndPrices,Footer,HomePage,NewsHomePage} from '../section/index'
+import {InsuranceDepartments,ListOfFeaturesAndPrices,Footer,HomePage,NewsHomePage,Navbar } from '../../../index'
+
 
 
 function Home() {
   return (
     <>
+    <Navbar/>
     <HomePage/>
+    
       <InsuranceDepartments/>
       <ListOfFeaturesAndPrices/>
       <NewsHomePage/>
