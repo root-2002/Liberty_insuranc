@@ -1,138 +1,38 @@
+#signincon{
+ 
+  padding-top: 3%;
+  padding-bottom:3% ;
 
-  .container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .form-wrapper {
-    width: 100rem;
-    height: 70rem;
-    background-color: #eee;
-    border-radius: 3rem;
-    box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+}
+.card1 
+{
+  max-height: 50%;
+  margin-top: -100px;
+  border: 0.1px;
+  border-radius: 150px;
+        background: hsla(180, 93%, 88%, 0.8);
+        backdrop-filter: blur(30px);
+}
+.buttonscont{
+  position: relative;
+  padding: 20px;
+  padding-right:30px;
+  padding-left:30px;
+  margin-left: auto;
+  margin-right: auto;
+  width:200px;
+
+}
+.frmbutton{
+    margin-left: auto;
+    margin-right: auto;
+}
+.frmbutton1{
+  margin: 2px;
+
+}
+.button2s{
+  margin-left: auto;
+    margin-right: auto;
     position: relative;
-    overflow: hidden;
-  }
-  
-  .banner {
-    position: absolute;
-    top: 25%;
-    left: -30rem;
-    text-align: center;
-    color: #fff;
-    width: 30rem;
-    z-index: 100;
-    transition: left 0.8s;
-  }
-  
-  .container.change .banner {
-    left: 5rem;
-  }
-  
-  .banner h1 {
-    font-size: 4rem;
-    margin-bottom: 3rem;
-  }
-  
-  .banner p {
-    font-size: 2rem;
-  }
-  
-  .green-bg {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right, #3ab19b, #4cbf91);
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 50;
-    transition: width 1.5s cubic-bezier(0.19, 1, 0.22, 1);
-  }
-  
-  .container.change .green-bg {
-    width: 40%;
-  }
-  
-  .green-bg button {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 16rem;
-    height: 5rem;
-    background-color: transparent;
-    border: 0.1rem solid #fff;
-    border-radius: 3rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .signin-form {
-    width: 60rem;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10rem 0;
-    transition: left 1.5s cubic-bezier(0.19, 1, 0.22, 1);
-  }
-  
-  .container.change .signin-form {
-    left: 40rem;
-  }
-  
-  .signin-form h1 {
-    font-size: 4rem;
-    color: #3aaf9f;
-  }
-  
-  .signin-form p {
-    font-size: 1.8rem;
-    color: #555;
-    margin-bottom: 2rem;
-  }
-  
-  .input-group {
-    position: relative;
-  }
-  
-  .input-group input {
-    width: 28rem;
-    height: 5rem;
-    padding: 1rem 1rem 1rem 3rem;
-    background-color: #ddd;
-    border: none;
-    border-radius: 0.5rem;
-  }
-  
-  .input-group i {
-    position: absolute;
-    top: 50%;
-    left: 1rem;
-    transform: translateY(-50%);
-    font-size: 1.2rem;
-    color: #555;
-  }
-  
-  .signin-form button {
-    width: 16rem;
-    height: 5rem;
-    background-color:  #3e329e;
-    border: none;
-    border-radius: 3rem;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    color: #fff;
-    margin-top: 3rem;
-    cursor: pointer;
-  }
-  
+}
