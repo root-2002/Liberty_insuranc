@@ -6,6 +6,7 @@ export default function HomePage() {
     
         <div>
   <section>
+    
     <header>
       <div className="container">
         <div className="banner-text">

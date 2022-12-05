@@ -1,3 +1,4 @@
+
 import './InsuranceDepartments.css';
 import img from '../img/sedan.png'
 import img2 from '../img/life-insurance.png'
@@ -5,6 +6,7 @@ import img1 from '../img/bankrupt.png'
 import img3 from '../img/insurance.png'
 import img4 from '../img/clipboard.png'
 import img5 from '../img/home-insurance.png'
+import { Link } from 'react-router-dom';
 const InsuranceDepartments = () => {
   return (
     <>
@@ -14,11 +16,11 @@ const InsuranceDepartments = () => {
         <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className='Card'>
             <div className='card-body'>
-              <a className='link'>
-                <img src={img} alt='img'/>
+            <Link to='/car'>
+              <img src={img} alt='img'/>
                 <h4 className="h4">car insurance</h4>
                 <p className='pr'>We'll help you save hundreds</p>
-              </a>
+              </Link>
             </div>
            
           </div>
