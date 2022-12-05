@@ -14,19 +14,16 @@ const Navbar = () => {
           <li className="nav-item">
            <a className="nav-link" active aria-current="page" href="/home">HOME</a>
           </li>
-          <li className="nav-item">
-
-           <div className="dropdown">
-  <button className="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Dropdown button
+         <li class="nav-item" role="presentation">
+         <button class="btn  " type="button" data-bs-toggle="drogitpdown" aria-expanded="false">
+    <div className='test fs-5 drop'>Insurance</div> 
   </button>
-  <ul className="dropdown-menu">
-    <li><a className="dropdown-item" href="#">Action</a></li>
-    <li><a className="dropdown-item" href="#">Another action</a></li>
-    <li><a className="dropdown-item" href="#">Something else here</a></li>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item test2" href="#">Action</a></li>
+    <li><a class="dropdown-item test2" href="#">Another action</a></li>
+    <li><a class="dropdown-item test2" href="#">Something else here</a></li>
   </ul>
-</div>
-          </li>
+  </li>
           <li className="nav-item">
             <a className="nav-link" href="/about-us">ABOUT US</a>
           </li>
@@ -34,18 +31,16 @@ const Navbar = () => {
            <a className="nav-link"href="/contact-us">CONTACT US</a>
          </li>
         </ul>
-     </div>
-    
-      <ul className="navbar-nav navbar-right">
-        <div className='row'>
-        <div className="col-6 sign-up">
+      <ul className="navbar-nav navbar-right sign">
+        <div className='row' >
+        <div className="col-12 col-lg-6 sign-up">
             <Link to ='/SignUp'>
             <button type="button">SIGN UP</button> 
             </Link>
              
           </div>
 
-        <div className='col-6'>
+        <div className='col-12 col-lg-6 '>
 
           <div className="sign-in">
           <Link to='/SignIn'>
@@ -56,7 +51,10 @@ const Navbar = () => {
         </div>
        
       </ul>
+     </div>
+    
    </nav>
+   
    </>
   )
 }

@@ -28,11 +28,12 @@ const InsuranceDepartments = () => {
         <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className='Card'>
             <div className='card-body'>
-              <a className='link'>
+              <Link to='/Bank'>
                 <img src={img1} alt='img'/>
                 <h4 className="h4">bank insurance</h4>
                 <p className='pr'>Save your money from losing</p>
-              </a>
+              </Link>
+             
             </div>
            
           </div>
@@ -40,11 +41,11 @@ const InsuranceDepartments = () => {
         <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className='Card'>
             <div className='card-body'>
-              <a className='link'>
+                <Link to='Life'>
                 <img src={img2} alt='img'/>
                 <h4 className="h4">life insurance</h4>
                 <p className='pr'>Protect yourself and secure your life</p>
-              </a>
+                </Link>
             </div>
            
           </div>
@@ -53,11 +54,11 @@ const InsuranceDepartments = () => {
         <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className='Card'>
             <div className='card-body'>
-              <a className='link'>
+                <Link to ='/Health'>
                 <img src={img3} alt='img'/>
                 <h4 className="h4">health insurance</h4>
                 <p className='pr'>Your health is more important than your money</p>
-              </a>
+                </Link>
             </div>
            
           </div>
@@ -65,11 +66,11 @@ const InsuranceDepartments = () => {
         <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className='Card'>
             <div className='card-body'>
-              <a className='link'>
+              <Link to='/Contracts'>
                 <img src={img4} alt='img'/>
                 <h4 className="h4">contracts insurance</h4>
                 <p className='pr'>We'll help you save hundreds</p>
-              </a>
+              </Link>
             </div>
            
           </div>

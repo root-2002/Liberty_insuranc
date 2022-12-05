@@ -1,5 +1,4 @@
 #nav-bar
-
 {
     text-decoration: none;
     position: static;
@@ -33,15 +32,9 @@ navbar-barnd img
  text-decoration: none;
 }
 
-  
+ 
 .sign-up button {
-text-decoration: none;
- margin-left: 5px;
-  position: left;
-  font-size:10;
-  top: 60%;
-  left: 50%;
-  transform: translateX1(100%);
+    margin: 5px;
   width: 5rem;
   height: 2rem;
   background-color: transparent;
@@ -54,13 +47,8 @@ text-decoration: none;
   
 }
 .sign-in button {
-    text-decoration: none;
-     margin-left: 5px;
-      position: left;
-      font-size:10;
-      top: 60%;
-      left: 50%;
-      transform: translateX1(100%);
+   margin: 5px;
+    text-decoration: none;  
       width: 5rem;
       height: 2rem;
       background-color: transparent;
@@ -72,9 +60,16 @@ text-decoration: none;
       cursor: pointer;
       
     }
- 
-.btnT
-{
-
-   color: #fff;
-}
+ .test
+ {
+    color: #fff;
+    
+ }
+ .sign 
+ {
+    margin-left: 43%;
+ }
+ .drop
+ {
+    font-weight: 600;
+ }
