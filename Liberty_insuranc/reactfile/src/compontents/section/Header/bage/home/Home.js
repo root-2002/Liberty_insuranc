@@ -5,12 +5,13 @@ import {InsuranceDepartments,ListOfFeaturesAndPrices,Footer,HomePage,NewsHomePag
 function Home() {
   return (
     <>
-    <Navbar/>
+    
     <HomePage/>
     
       <InsuranceDepartments/>
       <ListOfFeaturesAndPrices/>
       <NewsHomePage/>
+      
     </>
    
   )

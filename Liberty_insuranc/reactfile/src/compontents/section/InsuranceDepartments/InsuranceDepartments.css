@@ -8,10 +8,10 @@ a:hover, a:visited, a:link, a:active
     border-radius:10px ;
     padding: 3%;
 }
-.Card{
+.Card-ins{
     border-radius: 10px;
     width: 12rem;
-    background-color: lightseagreen;;
+    background-color: rgb(91, 146, 143);
    padding: 20px;
    margin-left: 10px;
    margin-top: 20px;

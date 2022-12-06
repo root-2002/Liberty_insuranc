@@ -14,7 +14,7 @@ const InsuranceDepartments = () => {
         
         <div className='row'>
         <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className='Card'>
+          <div className='Card-ins'>
             <div className='card-body'>
             <Link to='/car'>
               <img src={img} alt='img'/>
@@ -26,7 +26,7 @@ const InsuranceDepartments = () => {
           </div>
         </div>
         <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className='Card'>
+          <div className='Card-ins'>
             <div className='card-body'>
               <Link to='/Bank'>
                 <img src={img1} alt='img'/>
@@ -39,7 +39,7 @@ const InsuranceDepartments = () => {
           </div>
         </div>
         <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className='Card'>
+          <div className='Card-ins'>
             <div className='card-body'>
                 <Link to='Life'>
                 <img src={img2} alt='img'/>
@@ -52,7 +52,7 @@ const InsuranceDepartments = () => {
         </div>
         
         <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className='Card'>
+          <div className='Card-ins'>
             <div className='card-body'>
                 <Link to ='/Health'>
                 <img src={img3} alt='img'/>
@@ -64,7 +64,7 @@ const InsuranceDepartments = () => {
           </div>
         </div>
         <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className='Card'>
+          <div className='Card-ins'>
             <div className='card-body'>
               <Link to='/Contracts'>
                 <img src={img4} alt='img'/>
@@ -76,7 +76,7 @@ const InsuranceDepartments = () => {
           </div>
         </div>
         <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className='Card'>
+          <div className='Card-ins'>
             <div className='card-body'>
               <a className='link'>
                 <img src={img5} alt='img'/>

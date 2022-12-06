@@ -1,6 +1,5 @@
 import './Navbar.css'
 import { Link } from 'react-router-dom';
-//import {Signin, Signup} from '../../index'
 const Navbar = () => {
   return (
    <>

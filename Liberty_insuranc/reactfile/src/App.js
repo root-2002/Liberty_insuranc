@@ -1,12 +1,15 @@
 
 import './App.css';
-import { Home ,Car,NotFound ,SignIn ,SignUP,Bank,Life,Contracts , Health} from './compontents/index'
+import { Home ,Car,NotFound ,SignIn ,SignUP,Bank,Life,Contracts , Health } from './compontents/index'
+import {Navbar , Footer} from './compontents/section/index'
 import {BrowserRouter , Route ,Routes} from 'react-router-dom'
 function App() {
   return (
  
     <BrowserRouter>
+      <Navbar/>
       <Routes>
+        
         <Route path='/' element={<Home/>} />
         <Route path='/Car' element={<Car/>} />
         <Route path='/SignIn' element={<SignIn/>}/>
@@ -17,7 +20,7 @@ function App() {
         <Route path='/SignUP' element={<SignUP/>}/>
          <Route path='*' element={<NotFound/>} />
       </Routes>
-    
+    <Footer/>
     </BrowserRouter>
     
   

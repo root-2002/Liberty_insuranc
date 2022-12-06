@@ -8,13 +8,13 @@
 }
 .headr-list
 {
-   
-   margin-right: 32%;
-   margin-bottom: 30px;
+    
+    margin-right: 32%;
+    margin-bottom: 30px;
 }
 .headr-li{
-
-   font-weight: 40px;
+    
+    font-weight: 40px;
 }
 .list-group-item
 {
@@ -27,6 +27,7 @@
 
 .list-group
 {
+    
   z-index: 1;
   
 }
