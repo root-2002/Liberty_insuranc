@@ -2,37 +2,64 @@ import './listOfFeaturesAndPrices.css'
 function listOfFeaturesAndPrices() {
   return (
     <>
+       <div className='container-list'>
+      
+   
+    <h1>  Car Insurance plan </h1>
+    
     <div className='row'>
-       
              <div className='col-12 col-sm-3 col-md-3 col-lg-3 '>
-  <ul class="list-group">
-             <li class="list-group-item">An item</li>
-             <li class="list-group-item">A second item</li>
-             <li class="list-group-item">A third item</li>
-             <li class="list-group-item">A fourth item</li>
-             <li class="list-group-item">And a fifth one</li>
+        <ul class="list-group">
+             <li class="list-group-item">
+              <h1 className='pris'>$1000</h1>
+             <p>Defined Benefit Limit</p>
+             <h5>Accident Plan</h5>
+             <p><img src='./imgs/star(1).png' alt='star' /> MOST AFFORDABLE</p>
+             <h6>Main Benefits </h6>
+             </li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Accident Cover</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div> </li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Injury coverage</p><div className='col-2 '><img alt='check' src='./imgs/close.png'/></div> </div></li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Rent a car until the end of the maintenance</p><div className='col-2 '><img alt='check' src='./imgs/close.png'/></div> </div></li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Death coverage</p><div className='col-2 '><img alt='check' src='./imgs/close.png'/></div> </div></li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Covering 40% of the maintenance</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
         </ul>
         </div>
         <div className='col-12 col-sm-6 col-md-6 col-lg-6 '>
   <ul class="list-group">
-             <li class="list-group-item">An item</li>
-             <li class="list-group-item">A second item</li>
-             <li class="list-group-item">A third item</li>
-             <li class="list-group-item">A fourth item</li>
-             <li class="list-group-item">And a fifth one</li>
-        </ul>
+  <li class="list-group-item">
+              <h1 className='pris'>$5000</h1>
+             <p>Defined Benefit Limit</p>
+             <h5>Accident Plan</h5>
+             <p><img src='./imgs/star(1).png' alt='star' /> MOST AFFORDABLE</p>
+             <h6>Main Benefits </h6>
+             </li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Accident Cover</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div> </li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Injury coverage</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Rent a car until the end of the maintenance</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Death coverage</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Covering 80% of the maintenance</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Covering the cost of repairing the damaged car because of you up to 80%</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
+               </ul>
         </div>
         <div className='col-12 col-sm-3 col-md-3 col-lg-3 '>
-  <ul class="list-group">
-             <li class="list-group-item">An item</li>
-             <li class="list-group-item">A second item</li>
-             <li class="list-group-item">A third item</li>
-             <li class="list-group-item">A fourth item</li>
-             <li class="list-group-item">And a fifth one</li>
+        <ul class="list-group">
+             <li class="list-group-item">
+              <h1 className='pris'>$2500</h1>
+             <p>Defined Benefit Limit</p>
+             <h5>Accident Plan</h5>
+             <p><img src='./imgs/star(1).png' alt='star' /> MOST AFFORDABLE</p>
+             <h6>Main Benefits </h6>
+             </li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Accident Cover</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div> </li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Injury coverage</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Rent a car until the end of the maintenance</p><div className='col-2 '><img alt='check' src='./imgs/close.png'/></div> </div></li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Death coverage</p><div className='col-2 '><img alt='check' src='./imgs/close.png'/></div> </div></li>
+             <li class="list-group-item"><div className='row'> <p className='col-10'>Covering 70% of the maintenance</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
         </ul>
         </div>  
   
     </div>
+       </div>
     
     </>
   )
