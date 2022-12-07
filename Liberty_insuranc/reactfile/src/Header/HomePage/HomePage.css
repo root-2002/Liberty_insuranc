@@ -1,8 +1,7 @@
-*{
-	margin: 0px;
-	padding: 0px;
-}
 
+.homepageHero{
+	background-color: var(--maincolor);
+}
 
 body {
 	font-family: 'Poppins', sans-serif;
@@ -10,7 +9,6 @@ body {
 header {
 	
 	padding: 20px;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.414), rgba(0, 0, 0, 0.801)), url(../../../public/imgs/HomePageMainP1.png);
 	height: 50%;
 	width: 100%;
 	-webkit-background-size: cover;

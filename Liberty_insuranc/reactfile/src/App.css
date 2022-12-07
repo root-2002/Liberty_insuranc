@@ -1,5 +1,15 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Anek Devanagari', sans-serif;
+font-family: 'Baloo Chettan 2', cursive;
+font-family: 'Inter', sans-serif;
+font-family: 'Lato', sans-serif;
    
+}
+:root{
+    --maincolor :#242F9B;
+    --seccolor :#646FD4;
+    --infocolor :#9BA3EB;
+    --edge :#DBDFFD;
 }

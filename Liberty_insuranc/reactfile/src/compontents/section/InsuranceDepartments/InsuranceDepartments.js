@@ -13,7 +13,7 @@ const InsuranceDepartments = () => {
       <div className=' container-card'>
         
         <div className=' row'>
-        <div className=' col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+        <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className=' Card-ins'>
             <div className=' card-body'>
             <Link to='/car'>
@@ -25,7 +25,7 @@ const InsuranceDepartments = () => {
            
           </div>
         </div>
-        <div className=' col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+        <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className=' Card-ins'>
             <div className=' card-body'>
               <Link to='/Bank'>
@@ -38,7 +38,7 @@ const InsuranceDepartments = () => {
            
           </div>
         </div>
-        <div className=' col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+        <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className=' Card-ins'>
             <div className=' card-body'>
                 <Link to='Life'>
@@ -51,7 +51,7 @@ const InsuranceDepartments = () => {
           </div>
         </div>
         
-        <div className=' col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+        <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className=' Card-ins'>
             <div className=' card-body'>
                 <Link to ='/Health'>
@@ -63,7 +63,7 @@ const InsuranceDepartments = () => {
            
           </div>
         </div>
-        <div className=' col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+        <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className=' Card-ins'>
             <div className=' card-body'>
               <Link to='/Contracts'>
@@ -75,7 +75,7 @@ const InsuranceDepartments = () => {
            
           </div>
         </div>
-        <div className=' col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+        <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className=' Card-ins'>
             <div className=' card-body'>
               <a className=' link'>

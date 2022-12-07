@@ -10,7 +10,6 @@ function Home() {
     
       <InsuranceDepartments/>
       <ListOfFeaturesAndPrices/>
-      <NewsHomePage/>
       
     </>
    
