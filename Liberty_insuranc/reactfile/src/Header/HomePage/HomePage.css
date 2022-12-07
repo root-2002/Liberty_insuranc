@@ -1,62 +1,25 @@
-*{
-	margin: 0px;
-	padding: 0px;
+.bg {
+    /* The image used */
+    background-image: url("../../../public//imgs/car-hero.png");
+    margin-left: auto;
+    /* Full height */
+    height: 419px;
+    width: 612px;
+    
+    position: relative;
+    
 }
-
-
-body {
-	font-family: 'Poppins', sans-serif;
+.img-hero
+{
+    align-items: flex-end;
 }
-header {
-	
-	padding: 20px;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.414), rgba(0, 0, 0, 0.801)), url(../../../public/imgs/HomePageMainP.png);
-	height: 50%;
-	width: 100%;
-	-webkit-background-size: cover;
-	background-size: cover;
-	background-position-y: 80%;
-	
+.first-txt {
+    position: absolute;
+    top: 17px;
+    left: 50px;
 }
-.banner-text{
-position:relative;
-margin-top: 5%;
-margin-right: 50% ;
-text-align: center;
-padding: 1%;
-padding-bottom: 7%;
-
-}
-.banner-text h2{
-	color: aqua;
-	font-size: 20px;
-}
-.banner-text p {
-	color: rgb(255, 255, 255);
-	letter-spacing: 2px;
-}
-.banner-btn a {
-	border: 1px solid #fff;
-	border-radius: 50px;
-	text-decoration: none;
-	padding: 10px 50px;
-	display: inline-block;
-	margin-top: 10px;
-	color: #fff;
-}
-.banner-btn a:hover {
-	background: rgba(58, 170, 255, 0.925);
-	color: #000;
-}
-#inputGroupSelect01{
-	margin-left :5px ;
-}
-.col-sm-4{
-	border-radius:10px;
-}
-.col-sm-8{
-	border-radius: 10px;
-}
-.input-group-text{
-	margin-left: 20px;
+.second-txt {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
 }

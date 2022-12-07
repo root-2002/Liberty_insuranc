@@ -1,4 +1,4 @@
-import {InsuranceDepartments,ListOfFeaturesAndPrices,Footer,HomePage,NewsHomePage,Navbar } from '../../../index'
+import {InsuranceDepartments,ListOfFeaturesAndPrices,Footer,HomePage,Navbar } from '../../../index'
 
 
 
@@ -10,7 +10,6 @@ function Home() {
     
       <InsuranceDepartments/>
       <ListOfFeaturesAndPrices/>
-      <NewsHomePage/>
       
     </>
    

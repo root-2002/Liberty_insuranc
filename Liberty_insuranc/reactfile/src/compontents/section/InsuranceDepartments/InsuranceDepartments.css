@@ -1,17 +1,16 @@
-.card-a a:hover, a:visited, a:link, a:active
+a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
-   
 }
 .container-card
 {
-    border-radius:10px ;
     padding: 3%;
+    background-color: var(--infocolor);
 }
 .Card-ins{
     border-radius: 10px;
     width: 12rem;
-    background-color: rgba(32, 178, 171, 0.697);
+ background-color: #fff;
    padding: 20px;
    margin-left: 10px;
    margin-top: 20px;
@@ -22,10 +21,15 @@
     display: flex;
 }
 .pr{
-   
+    color:rgb(0, 0, 0);
     display: none;
 }
+.h4{
+    color:rgb(0, 0, 0);
+    padding-top:15px
+}
 .h4:hover +p{
+
     display: block;
     
 
@@ -39,7 +43,7 @@
 
 .card :hover 
 {
-   
+
     background: linear-gradient(to right, #3ab19b, #4cbf91);
     
    
