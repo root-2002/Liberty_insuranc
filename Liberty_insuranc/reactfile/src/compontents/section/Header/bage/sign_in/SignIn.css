@@ -1,38 +1,8 @@
-#signincon{
- 
-  padding-top: 3%;
-  padding-bottom:3% ;
+.Login {
+  padding: 60px 0;
+}
 
-}
-.card1 
-{
-  max-height: 50%;
-  margin-top: -100px;
-  border: 0.1px;
-  border-radius: 150px;
-        background: hsla(180, 93%, 88%, 0.8);
-        backdrop-filter: blur(30px);
-}
-.buttonscont{
-  position: relative;
-  padding: 20px;
-  padding-right:30px;
-  padding-left:30px;
-  margin-left: auto;
-  margin-right: auto;
-  width:200px;
-
-}
-.frmbutton{
-    margin-left: auto;
-    margin-right: auto;
-}
-.frmbutton1{
-  margin: 2px;
-
-}
-.button2s{
-  margin-left: auto;
-    margin-right: auto;
-    position: relative;
+.Login form {
+  margin: 0 auto;
+  max-width: 320px;
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 function life() {
   return (
-    <div>life</div>
+    <div>test</div>
   )
 }
 

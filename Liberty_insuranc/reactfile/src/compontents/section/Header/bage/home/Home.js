@@ -5,11 +5,13 @@ import {InsuranceDepartments,ListOfFeaturesAndPrices,Footer,HomePage,Navbar } fr
 function Home() {
   return (
     <>
-    <Navbar/>
+    
     <HomePage/>
     
       <InsuranceDepartments/>
       <ListOfFeaturesAndPrices/>
+      <NewsHomePage/>
+      
     </>
    
   )
