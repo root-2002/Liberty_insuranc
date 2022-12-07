@@ -10,78 +10,78 @@ import { Link } from 'react-router-dom';
 const InsuranceDepartments = () => {
   return (
     <>
-      <div className='container-card'>
+      <div className=' container-card'>
         
-        <div className='row'>
-        <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className='Card'>
-            <div className='card-body'>
+        <div className=' row'>
+        <div className=' col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+          <div className=' Card-ins'>
+            <div className=' card-body'>
             <Link to='/car'>
               <img src={img} alt='img'/>
-                <h4 className="h4">car insurance</h4>
-                <p className='pr'>We'll help you save hundreds</p>
+                <h4 className=" h4">car insurance</h4>
+                <p className=' pr'>We'll help you save hundreds</p>
               </Link>
             </div>
            
           </div>
         </div>
-        <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className='Card'>
-            <div className='card-body'>
+        <div className=' col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+          <div className=' Card-ins'>
+            <div className=' card-body'>
               <Link to='/Bank'>
                 <img src={img1} alt='img'/>
-                <h4 className="h4">bank insurance</h4>
-                <p className='pr'>Save your money from losing</p>
+                <h4 className=" h4">bank insurance</h4>
+                <p className=' pr'>Save your money from losing</p>
               </Link>
              
             </div>
            
           </div>
         </div>
-        <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className='Card'>
-            <div className='card-body'>
+        <div className=' col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+          <div className=' Card-ins'>
+            <div className=' card-body'>
                 <Link to='Life'>
                 <img src={img2} alt='img'/>
-                <h4 className="h4">life insurance</h4>
-                <p className='pr'>Protect yourself and secure your life</p>
+                <h4 className=" h4">life insurance</h4>
+                <p className=' pr'>Protect yourself and secure your life</p>
                 </Link>
             </div>
            
           </div>
         </div>
         
-        <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className='Card'>
-            <div className='card-body'>
+        <div className=' col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+          <div className=' Card-ins'>
+            <div className=' card-body'>
                 <Link to ='/Health'>
                 <img src={img3} alt='img'/>
-                <h4 className="h4">health insurance</h4>
-                <p className='pr'>Your health is more important than your money</p>
+                <h4 className=" h4">health insurance</h4>
+                <p className=' pr'>Your health is more important than your money</p>
                 </Link>
             </div>
            
           </div>
         </div>
-        <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className='Card'>
-            <div className='card-body'>
+        <div className=' col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+          <div className=' Card-ins'>
+            <div className=' card-body'>
               <Link to='/Contracts'>
                 <img src={img4} alt='img'/>
-                <h4 className="h4">contracts insurance</h4>
-                <p className='pr'>We'll help you save hundreds</p>
+                <h4 className=" h4">contracts insurance</h4>
+                <p className=' pr'>We'll help you save hundreds</p>
               </Link>
             </div>
            
           </div>
         </div>
-        <div className='col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className='Card'>
-            <div className='card-body'>
-              <a className='link'>
+        <div className=' col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+          <div className=' Card-ins'>
+            <div className=' card-body'>
+              <a className=' link'>
                 <img src={img5} alt='img'/>
-                <h4 className="h4">home insurance</h4>
-                <p className='pr'>protect your home</p>
+                <h4 className=" h4">home insurance</h4>
+                <p className=' pr'>protect your home</p>
               </a>
             </div>
            
