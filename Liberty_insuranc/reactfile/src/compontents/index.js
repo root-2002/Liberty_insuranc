@@ -8,4 +8,3 @@ export {default as Bank } from './section/Header/bage/bank/Bank';
 export {default as Life } from './section/Header/bage/life/life';
 export {default as  Contracts} from './section/Header/bage/contracts/Contracts';
 export {default as Health } from './section/Header/bage/health/Health';
-
