@@ -1,60 +1,79 @@
 import './Navbar.css'
 import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import {
+  MDBContainer,
+  MDBNavbar,
+  MDBNavbarBrand,
+  MDBNavbarToggler,
+  MDBIcon,
+  MDBNavbarNav,
+  MDBNavbarItem,
+  MDBNavbarLink,
+  MDBBtn,
+  MDBDropdown,
+  MDBDropdownToggle,
+  MDBDropdownMenu,
+  MDBDropdownItem,
+  MDBCollapse,
+} from 'mdb-react-ui-kit';
+
 const Navbar = () => {
+  const [showBasic, setShowBasic] = useState(false);
+
   return (
-   <>
-    <nav className="navbar navbar-expand-lg bg-green">
-      <a className="navbar-brand" href="#"><img src ="images/moonsite.png"/></a>
-      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-       <span className="navbar-toggler-icon"></span>
-      </button>
-     <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav text-center">
-          <li className="nav-item">
-           <a className="nav-link" active aria-current="page" href="/home">HOME</a>
-          </li>
-         <li class="nav-item" role="presentation">
-         <button class="btn  " type="button" data-bs-toggle="drogitpdown" aria-expanded="false">
-    <div className='test fs-5 drop'>Insurance</div> 
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item test2" href="#">Action</a></li>
-    <li><a class="dropdown-item test2" href="#">Another action</a></li>
-    <li><a class="dropdown-item test2" href="#">Something else here</a></li>
-  </ul>
-  </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/about-us">ABOUT US</a>
-          </li>
-         <li className="nav-item">
-           <a className="nav-link"href="/contact-us">CONTACT US</a>
-         </li>
-        </ul>
-      <ul className="navbar-nav navbar-right sign">
-        <div className='row' >
-        <div className="col-12 col-lg-6 sign-up">
-            <Link to ='/SignUp'>
-            <button type="button">SIGN UP</button> 
-            </Link>
-             
-          </div>
+    <MDBNavbar expand='lg' light bgColor='light'>
+    <MDBContainer fluid>
+      <MDBNavbarBrand href='#'>Brand</MDBNavbarBrand>
 
-        <div className='col-12 col-lg-6 '>
+      <MDBNavbarToggler
+        aria-controls='navbarSupportedContent'
+        aria-expanded='false'
+        aria-label='Toggle navigation'
+        onClick={() => setShowBasic(!showBasic)}
+      >
+        <MDBIcon icon='bars' fas />
+      </MDBNavbarToggler>
 
-          <div className="sign-in">
-          <Link to='/SignIn'>
-          <button type="button">SIGN IN</button>
-          </Link>
-            </div>
-        </div>
-        </div>
-       
-      </ul>
-     </div>
-    
-   </nav>
-   
-   </>
+      <MDBCollapse navbar show={showBasic}>
+        <MDBNavbarNav className='mr-auto mb-2 mb-lg-0'>
+          <MDBNavbarItem>
+            <MDBNavbarLink active aria-current='page' href='#'>
+              Home
+            </MDBNavbarLink>
+          </MDBNavbarItem>
+          <MDBNavbarItem>
+            <MDBNavbarLink href='#'>Link</MDBNavbarLink>
+          </MDBNavbarItem>
+
+          <MDBNavbarItem>
+            <MDBDropdown>
+              <MDBDropdownToggle tag='a' className='nav-link' role='button'>
+                Dropdown
+              </MDBDropdownToggle>
+              <MDBDropdownMenu>
+                <MDBDropdownItem link>Action</MDBDropdownItem>
+                <MDBDropdownItem link>Another action</MDBDropdownItem>
+                <MDBDropdownItem link>Something else here</MDBDropdownItem>
+              </MDBDropdownMenu>
+            </MDBDropdown>
+          </MDBNavbarItem>
+
+          <MDBNavbarItem>
+            <MDBNavbarLink disabled href='#' tabIndex={-1} aria-disabled='true'>
+              Disabled
+            </MDBNavbarLink>
+          </MDBNavbarItem>
+        </MDBNavbarNav>
+
+        <form className='d-flex input-group w-auto'>
+          <input type='search' className='form-control' placeholder='Type query' aria-label='Search' />
+          <MDBBtn color='primary'>Search</MDBBtn>
+        </form>
+      </MDBCollapse>
+    </MDBContainer>
+  </MDBNavbar>
+
   )
 }
 
