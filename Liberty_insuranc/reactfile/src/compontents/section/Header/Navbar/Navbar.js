@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark py-3">
+    <nav class="navbar navbar-expand-lg py-3">
     <div class="container">
-      <a href="#" class="navbar-brand">Librty Insurance</a>
+      <a href="#" class="navbar-brand">Liberty Insurance</a>
 
       <button
         class="navbar-toggler"
