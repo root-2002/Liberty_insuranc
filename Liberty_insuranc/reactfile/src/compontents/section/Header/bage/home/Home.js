@@ -1,4 +1,4 @@
-import {InsuranceDepartments,ListOfFeaturesAndPrices,Footer,HomePage,Navbar } from '../../../index'
+import {InsuranceDepartments,ListOfFeaturesAndPrices,HomePage } from '../../../index'
 
 
 
