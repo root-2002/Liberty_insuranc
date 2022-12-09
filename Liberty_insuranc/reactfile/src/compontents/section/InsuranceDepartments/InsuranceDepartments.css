@@ -23,6 +23,13 @@ a:hover, a:visited, a:link, a:active
 .pr{
     color:rgb(0, 0, 0);
     display: none;
+    padding: 10px;
+}
+.h4{
+    color:rgb(0, 0, 0);
+    padding-top:15px;
+    padding-right: 30px;;
+    
 }
 .h4{
     color:rgb(0, 0, 0);
@@ -47,4 +54,18 @@ a:hover, a:visited, a:link, a:active
     background: linear-gradient(to right, #3ab19b, #4cbf91);
     
    
+}
+.Mcard img {
+    position: relative;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 10px;
+    
+
+}
+.mCardBody{
+    padding: 20px;
+    max-width :100px;
+    min-width: 100px;
+    min-height: 230px;
 }

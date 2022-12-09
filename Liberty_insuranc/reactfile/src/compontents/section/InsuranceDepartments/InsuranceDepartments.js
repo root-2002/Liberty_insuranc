@@ -10,15 +10,15 @@ import { Link } from 'react-router-dom';
 const InsuranceDepartments = () => {
   return (
     <>
-      <div className=' container-card'>
+      <div className='container-card'>
         
         <div className=' row'>
         <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className=' Card-ins'>
-            <div className=' card-body'>
+            <div className='mCardBody card-body'>
             <Link to='/car'>
               <img src={img} alt='img'/>
-                <h4 className=" h4">car insurance</h4>
+                <h4 className=" h4">Car Insurance</h4>
                 <p className=' pr'>We'll help you save hundreds</p>
               </Link>
             </div>
@@ -27,10 +27,10 @@ const InsuranceDepartments = () => {
         </div>
         <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className=' Card-ins'>
-            <div className=' card-body'>
+            <div className='mCardBody card-body'>
               <Link to='/Bank'>
                 <img src={img1} alt='img'/>
-                <h4 className=" h4">bank insurance</h4>
+                <h4 className=" h4">Bank Insurance</h4>
                 <p className=' pr'>Save your money from losing</p>
               </Link>
              
@@ -40,10 +40,10 @@ const InsuranceDepartments = () => {
         </div>
         <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className=' Card-ins'>
-            <div className=' card-body'>
+            <div className='mCardBody card-body'>
                 <Link to='Life'>
                 <img src={img2} alt='img'/>
-                <h4 className=" h4">life insurance</h4>
+                <h4 className=" h4">Life Insurance</h4>
                 <p className=' pr'>Protect yourself and secure your life</p>
                 </Link>
             </div>
@@ -53,10 +53,10 @@ const InsuranceDepartments = () => {
         
         <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className=' Card-ins'>
-            <div className=' card-body'>
+            <div className='mCardBody card-body'>
                 <Link to ='/Health'>
                 <img src={img3} alt='img'/>
-                <h4 className=" h4">health insurance</h4>
+                <h4 className=" h4">Health Insurance</h4>
                 <p className=' pr'>Your health is more important than your money</p>
                 </Link>
             </div>
@@ -65,10 +65,10 @@ const InsuranceDepartments = () => {
         </div>
         <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className=' Card-ins'>
-            <div className=' card-body'>
+            <div className='mCardBody card-body'>
               <Link to='/Contracts'>
                 <img src={img4} alt='img'/>
-                <h4 className=" h4">contracts insurance</h4>
+                <h4 className=" h4">Contracts Insurance</h4>
                 <p className=' pr'>We'll help you save hundreds</p>
               </Link>
             </div>
@@ -77,12 +77,12 @@ const InsuranceDepartments = () => {
         </div>
         <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
           <div className=' Card-ins'>
-            <div className=' card-body'>
-              <a className=' link'>
+            <div className='mCardBody card-body'>
+            <Link to='/HomeIns'>
                 <img src={img5} alt='img'/>
-                <h4 className=" h4">home insurance</h4>
+                <h4 className=" h4">Home Insurance</h4>
                 <p className=' pr'>protect your home</p>
-              </a>
+                </Link>
             </div>
            
           </div>

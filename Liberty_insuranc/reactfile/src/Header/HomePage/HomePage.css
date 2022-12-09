@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .bg {
     /* The image used */
     background-image: url("../../../public//imgs/car-hero.png");
@@ -22,4 +23,44 @@
     position: absolute;
     bottom: 20px;
     left: 10px;
+=======
+
+body {
+	font-family:'Courier New', Courier, monospace;
+}
+.homeBanner{
+	background-image: url(../../../public/imgs/homeBanner.png);
+	height: 100vh;
+}
+
+.headerH2{
+	position: relative;
+	text-align: center;
+	color: aliceblue;
+}
+.homeBanner div h1{
+	text-align: center;
+	color: aliceblue;
+}
+.header-cont{
+	padding-top: 40%;
+}
+.underHeader{
+	text-align: center;
+	padding-top: 75px;
+}
+.offercon{
+	padding: 50px;
+	display: flex;
+}
+.offercon img {
+	max-height: 400px;
+	margin: 20px;
+}
+.text-col{
+	padding: 60px;
+}
+.text-col h1{
+	font-style: italic;
+>>>>>>> main
 }

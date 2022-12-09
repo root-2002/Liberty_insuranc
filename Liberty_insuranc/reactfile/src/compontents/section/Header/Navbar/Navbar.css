@@ -1,3 +1,9 @@
 .navbar{
     background-color: var(--maincolor);
+<<<<<<< HEAD
 }
+=======
+    border-bottom: 0.5px;
+    border-style: solid;
+}
+>>>>>>> main

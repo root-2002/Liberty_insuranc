@@ -1,6 +1,6 @@
 
 import './App.css';
-import { Home ,Car,NotFound ,Bank,Life,Contracts , Health } from './compontents/index'
+import { Home ,Car,NotFound ,Bank,Life,Contracts , Health, HomeIns} from './compontents/index'
 import {Navbar , Footer} from './compontents/section/index'
 import {BrowserRouter , Route ,Routes} from 'react-router-dom'
 
@@ -8,9 +8,10 @@ function App() {
   return (
  
     <BrowserRouter>
+    <homeIns/>
       <Navbar/>
       <Routes>
-        
+      <Route path='/homeIns' element={<HomeIns/>}/>
         <Route path='/' element={<Home/>} />
         <Route path='/Car' element={<Car/>} />
          <Route path='/Life' element={<Life/>}/>
