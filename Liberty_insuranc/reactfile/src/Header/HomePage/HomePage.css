@@ -4,17 +4,27 @@ body {
 }
 .homeBanner{
 	background-image: url(../../../public/imgs/homeBanner.png);
-	height: 100vh;
+	align-items: center;
+	height: 108vh;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 .headerH2{
 	position: relative;
 	text-align: center;
 	color: aliceblue;
+	padding-bottom: 3px;
+	font-family: 'Anek Devanagari', sans-serif;
 }
 .homeBanner div h1{
 	text-align: center;
 	color: aliceblue;
+	padding-bottom: 60px;
+	font-family: 'Anek Devanagari', sans-serif;
 }
 .header-cont{
 	padding-top: 40%;
@@ -24,16 +34,45 @@ body {
 	padding-top: 75px;
 }
 .offercon{
-	padding: 50px;
+	padding: 10px;
 	display: flex;
+	flex-direction: row;
+}
+.homeBottomText{
+	display: none;
+}
+@media screen and (max-width: 1208px){
+	.offercon{
+		display: block;
+
+	}
+	.offercon img {
+		max-width: 80%;
+		
+	}
+	.homeUpText{
+		display: none;
+
+	}
+	#homeBottomImg{
+      display: inline-block;
+	}
+	.homeBottomText{
+		display: block;
+	}
+
+	
 }
 .offercon img {
 	max-height: 400px;
 	margin: 20px;
 }
 .text-col{
-	padding: 60px;
+	padding: 40px;
 }
 .text-col h1{
 	font-style: italic;
+}
+#homeBottomImg{
+	margin-left: 5%;
 }

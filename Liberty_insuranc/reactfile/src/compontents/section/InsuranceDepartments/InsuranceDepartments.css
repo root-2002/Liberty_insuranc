@@ -5,7 +5,7 @@ a:hover, a:visited, a:link, a:active
 .container-card
 {
     padding: 3%;
-    background-color: var(--infocolor);
+    
 }
 .Card-ins{
     border-radius: 10px;

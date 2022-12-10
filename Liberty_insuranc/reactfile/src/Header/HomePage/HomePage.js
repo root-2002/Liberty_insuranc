@@ -4,19 +4,22 @@ import './HomePage.css'
 export default function HomePage() {
   return (
     <div>
-        <div className='bg-image homeBanner'>
+      
+        <div className='banner-container bg-image homeBanner'>
           <div className="container header-cont">
             
           <h2 className="headerH2">Welcome to Liberty Insurance</h2>
           <h1>Live Freely , For You Are In Safe Hands </h1>
           
           </div>
+          
  
     </div>
+    <div className='container-fluid '>
     <h2 className="underHeader">What Do We Have To Offer ?</h2>
     <div className='container offercon'>
       <div className='img-col'>
-        <img src='./imgs/homeFamily.png' alt=" "></img>
+        <img src='./imgs/homeFamily.png' id='offImg' alt=" "></img>
       </div>
       <div className='text-col'>
         <h2>Taking care</h2>
@@ -26,16 +29,24 @@ export default function HomePage() {
         </p>
       </div>
     </div>
+    </div>
     <div className='container offercon'>
       <div className='text-col'>
-        <h2>Taking care</h2>
-        <h1>OF YOUR HOME</h1>
-        <p className='text-break fs-3'>
+        <h2 className='homeUpText'>Taking care</h2>
+        <h1 className='homeUpText'>OF YOUR HOME</h1>
+        <p className='text-break fs-3 homeUpText'>
         Ask yourself: do you want your home to be protected in the event of flood, fire, theft or other accidental damage? Or would you rather deal with the expense and the stress on your own? Home insurance starting from just 8.3 JDs per month.
         </p>
       </div>
       <div className='img-col'>
-        <img src='./imgs/homeHome.png' alt=" "></img>
+        <img src='./imgs/homeHome.png' id="homeBottomImg"alt=" "></img>
+      </div>
+      <div className='text-col'>
+        <h2 className='homeBottomText'>Taking care</h2>
+        <h1 className='homeBottomText'>OF YOUR HOME</h1>
+        <p className='text-break fs-3 homeBottomText'>
+        Ask yourself: do you want your home to be protected in the event of flood, fire, theft or other accidental damage? Or would you rather deal with the expense and the stress on your own? Home insurance starting from just 8.3 JDs per month.
+        </p>
       </div>
     </div>
     <div className='container offercon'>

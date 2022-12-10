@@ -1,7 +1,7 @@
 
 .footr-c
 {
-  background-color:#DBDFFD;
+  background-color:var(--edge);
   padding: 30px;
  
 }
