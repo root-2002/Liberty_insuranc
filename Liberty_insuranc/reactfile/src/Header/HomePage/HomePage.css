@@ -1,29 +1,3 @@
-<<<<<<< HEAD
-.bg {
-    /* The image used */
-    background-image: url("../../../public//imgs/car-hero.png");
-    margin-left: auto;
-    /* Full height */
-    height: 419px;
-    width: 612px;
-    
-    position: relative;
-    
-}
-.img-hero
-{
-    align-items: flex-end;
-}
-.first-txt {
-    position: absolute;
-    top: 17px;
-    left: 50px;
-}
-.second-txt {
-    position: absolute;
-    bottom: 20px;
-    left: 10px;
-=======
 
 body {
 	font-family:'Courier New', Courier, monospace;
@@ -62,5 +36,4 @@ body {
 }
 .text-col h1{
 	font-style: italic;
->>>>>>> main
 }

@@ -1,15 +1,16 @@
 
 import './App.css';
 import { Home ,Car,NotFound ,Bank,Life,Contracts , Health, HomeIns} from './compontents/index'
-import {Navbar , Footer} from './compontents/section/index'
+import {Navbar , Footer ,Price} from './compontents/section/index'
 import {BrowserRouter , Route ,Routes} from 'react-router-dom'
 
 function App() {
   return (
  
     <BrowserRouter>
-    <homeIns/>
       <Navbar/>
+    <Price/>
+     
       <Routes>
       <Route path='/homeIns' element={<HomeIns/>}/>
         <Route path='/' element={<Home/>} />
