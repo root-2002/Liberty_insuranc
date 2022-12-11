@@ -1,6 +1,6 @@
 #side_nav
 {
-    background-color: black;
+    background-color: rgb(144, 15, 15);
     min-width: 250px;
     max-width: 250px;
     z-index: 1;
@@ -13,12 +13,15 @@
 
     position: fixed;
     display: flex;
+    z-index: 5;
 }
 .price-container{
-    background-color: black;
+    background-color: rgb(165, 26, 26);
     height: 450px;
     width: 250px;
     margin-top:20%;
+
+
   
 }
 .calc
