@@ -11,12 +11,13 @@ function Price() {
     if (Type[0].value === "private") {
       license.innerHTML = "license :" + Type[0].value;
       Type[0].classList.add("hide")
+      Form[0].classList.remove("hide");
       Form[1].classList.remove("hide");
     }
     if (Type[0].value === "public") {
       license.innerHTML = "license :" + Type[0].value;
       Type[0].classList.add("hide")
-      Form[1].classList.remove("hide");
+      Form[0].classList.remove("hide");
       Form[1].classList.remove("hide");
     }
     if (Type[0].value === "Shipping") {
@@ -44,6 +45,7 @@ function Price() {
 
       if (Type[2].value === "Mandatory") {
         console.log(price);
+        
       }
       if (Type[2].value === "comprehensive") {
         console.log(price);
@@ -208,8 +210,8 @@ function Price() {
               </form>
               <form className='hide'>
                 <span className='opss'>number of passengers</span>
-                <select value="7">
-                  <option>
+                <select>
+                  <option value="7">
                     7
                   </option>
                   <option value="18">
@@ -223,8 +225,8 @@ function Price() {
               </form>
               <form className='hide'>
                 <span className='opss'>number of passengers</span>
-                <select value="250cc">
-                  <option>
+                <select >
+                  <option value="250cc">
                     250CC
                   </option>
                   <option value="450cc">
