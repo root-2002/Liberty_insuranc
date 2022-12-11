@@ -3,8 +3,10 @@ import './App.css';
 import { Home ,Car,NotFound ,Bank,Life,Contracts , Health, HomeIns} from './compontents/index'
 import {Navbar , Footer ,Price} from './compontents/section/index'
 import {BrowserRouter , Route ,Routes} from 'react-router-dom'
+import { Component } from 'react';
 
 function App() {
+  
   return (
  
     <BrowserRouter>
