@@ -1,7 +1,10 @@
 
-.footr-c
-{
-  background-color:#DBDFFD;
-  padding: 30px;
- 
+.container-footer{
+  background-color: black;
+  padding: 3%;
+}
+.container-footer{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
 }
