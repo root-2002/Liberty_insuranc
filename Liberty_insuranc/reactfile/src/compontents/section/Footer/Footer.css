@@ -1,10 +1,25 @@
 
 .container-footer{
-  background-color: black;
+  background-color: var(--maincolor);
   padding: 3%;
 }
 .container-footer{
   font-size: 14px;
   word-spacing: 2px;
   text-transform: capitalize;
+}
+.footerText{
+  font-family: 'Baloo Chettan 2', cursive;
+  font-size: 21px;
+
+}
+.footerText:hover{
+
+  color: white;
+  
+}
+.footerLinks a:hover, a:visited, a:link, a:active {
+  color: white;
+  text-decoration: none;
+
 }
