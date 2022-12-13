@@ -2,7 +2,6 @@
 import './InsuranceDepartments.css';
 import img from '../img/sedan.png'
 import img2 from '../img/life-insurance.png'
-import img1 from '../img/bankrupt.png'
 import img3 from '../img/insurance.png'
 import img4 from '../img/clipboard.png'
 import img5 from '../img/home-insurance.png'
@@ -29,9 +28,9 @@ const InsuranceDepartments = () => {
           <div className=' Card-ins'>
             <div className='mCardBody card-body'>
               <Link to='/Bank'>
-                <img src={img1} alt='img'/>
-                <h4 className=" h4">Bank Insurance</h4>
-                <p className=' pr'>Save your money from losing</p>
+                <img src="./imgs/airplane.png" alt='img'/>
+                <h4 className=" h4">travel Insurance</h4>
+                <p className=' pr'>Be protected at all time</p>
               </Link>
              
             </div>
