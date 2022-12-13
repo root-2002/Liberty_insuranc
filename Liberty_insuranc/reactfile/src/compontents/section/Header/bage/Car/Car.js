@@ -65,7 +65,7 @@ You’ll need third party cover as a minimum. It’s compulsory, and you can’t
         <div className='container d-lg-flex'>
           <p>Insurers use statistics to work out how likely you are to make a claim on your car insurance – and that's what sets the price.<br /><br />
 
-          The average price of a comprehensive policy is £549. Third party, fire and theft (TPFT) is considerably more at £734, and third party only (TPO) is more again, at £920.<br/><br />
+          The average price of a comprehensive policy is $549. Third party, fire and theft (TPFT) is considerably more at $734, and third party only (TPO) is more again, at $920.<br/><br />
 
           These are just averages though – your quotes will depend on a lot more than just the cover type you choose. Your age, the car you drive, mileage and driving history all play a part.<br /><br />
 

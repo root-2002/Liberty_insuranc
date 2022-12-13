@@ -19,7 +19,7 @@ function life() {
       <div className='imgTextIns'>
         <h1 className='insText'>What is life insurance? </h1>
         <div className='container d-lg-flex'>
-          <p>Life insurance can help your loved ones deal with the financial impact of your death. If you die during the length of the policy it could pay out a cash sum. If you add critical illness cover and are diagnosed with a terminal illness during your policy, you'll be covered for that too.<br />
+          <p>Life insurance can help your loved ones deal with the financial impact of your death. If you die during the length of the policy it could pay out a cash sum. If you add critical illness cover and are diagnosed with a terminal illness during your policy, you'll be covered for that too.<br /><br />
 
             <h3>Why do I need it?</h3><br />
 

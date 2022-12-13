@@ -24,7 +24,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-
 }
 
 
@@ -79,7 +78,12 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
+    .Ins-Bg{
+        display: none;
+    }
+    .bgBackBone{
+    display: none;}
     .insTextImg-Img {
         width: 300px
     }
@@ -153,6 +157,7 @@
     max-height: 600px;   
 }
 #insLifeImg{
+    max-width: 600px;
     border-style: solid;
     border: 0.1px;
     border-radius: 100px;
