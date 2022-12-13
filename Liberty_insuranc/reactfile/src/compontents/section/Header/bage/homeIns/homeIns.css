@@ -6,9 +6,11 @@
 #carInsBG{
     background-image: url(../../../../../../public/imgs/carInsBG.png);
 }
+#healthBG{
+    background-image: url(../../../../../../public/imgs/healthBg1.png);
+}
 #homeInsBG{
     background-image: url(../../../../../../public/imgs/homeInsImg.png);
-
 }
 .Ins-Bg {
     height: 90vh;
@@ -146,4 +148,9 @@
     border: 0.1px;
     padding: 40px;
     border-radius: 100px;
+}
+.carInsCardsPrice{
+    color:var(--maincolor);
+    font-size: 20px;
+
 }

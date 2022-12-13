@@ -7,7 +7,7 @@ function life() {
 
         <div className='bg-Info'>
           <div className='divStyle'>
-            <h1 className='pageHeader'>Home Insurance</h1>
+            <h1 className='pageHeader'>Life Insurance</h1>
             <p className='pageHeaderpara'>Help ease your mind with coverage that you and your family can rely on</p>
           </div>
 

@@ -1,7 +1,7 @@
 import './listOfFeaturesAndPrices.css'
 function listOfFeaturesAndPrices() {
   return (
-    <>
+    <div>
        <div className='container-list'>
       
    
@@ -61,7 +61,7 @@ function listOfFeaturesAndPrices() {
     </div>
        </div>
     
-    </>
+    </div>
   )
 }
 

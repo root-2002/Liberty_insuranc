@@ -56,6 +56,7 @@ You’ll need third party cover as a minimum. It’s compulsory, and you can’t
           </div>
 
         </div>
+        
 
       </div>
       <br /><br />
@@ -73,6 +74,61 @@ You’ll need third party cover as a minimum. It’s compulsory, and you can’t
           <img src='./imgs/carPrice.png' className='insTextImg-Img' alt=""></img>
         </div>
       </div>
+      <div>
+       <div className='container-list'>
+      
+   
+    <h1>  Car Insurance plans </h1>
+    
+    <div className='row'>
+             <div className='col-12 col-sm-3 col-md-3 col-lg-3 '>
+        <ul className="list-group">
+             <li className="list-group-item">
+             <p className="carInsCardsPrice">Third party only</p>
+             <h6>Main Benefits </h6>
+             </li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>Accident Cover</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div> </li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>Injury coverage</p><div className='col-2 '><img alt='check' src='./imgs/close.png'/></div> </div></li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>Rent a car until the end of the maintenance</p><div className='col-2 '><img alt='check' src='./imgs/close.png'/></div> </div></li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>Death coverage</p><div className='col-2 '><img alt='check' src='./imgs/close.png'/></div> </div></li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>Covering of the maintenance</p><div className='col-2 '><img alt='check' src='./imgs/close.png'/></div> </div></li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>covered if it gets stolen or damaged by fire too</p><div className='col-2 '><img alt='check' src='./imgs/close.png'/></div> </div></li>
+        </ul>
+        </div>
+        <div className='col-12 col-sm-6 col-md-6 col-lg-6 '>
+  <ul className="list-group">
+  <li className="list-group-item">
+             <p className="carInsCardsPrice">Comprehensive car insurance</p>
+             <h6>Main Benefits </h6>
+             </li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>Accident Cover</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div> </li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>Injury coverage</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>Rent a car until the end of the maintenance</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>Death coverage</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>Covering 80% of the maintenance</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>covered if it gets stolen or damaged by fire too</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
+            <li className="list-group-item"><div className='row'> <p className='col-10'>Covering the cost of repairing the damaged car because of you up to 80%</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
+               </ul>
+        </div>
+        <div className='col-12 col-sm-3 col-md-3 col-lg-3 '>
+        <ul className="list-group">
+             <li className="list-group-item">
+             <p className="carInsCardsPrice">Third party, fire and theft</p>
+             <h6>Main Benefits </h6>
+             </li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>Accident Cover</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div> </li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>Injury coverage</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>Rent a car until the end of the maintenance</p><div className='col-2 '><img alt='check' src='./imgs/close.png'/></div> </div></li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>Death coverage</p><div className='col-2 '><img alt='check' src='./imgs/close.png'/></div> </div></li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>covered if it gets stolen or damaged by fire too</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
+             <li className="list-group-item"><div className='row'> <p className='col-10'>Covering 70% of the maintenance</p><div className='col-2 '><img alt='check' src='./imgs/check.png'/></div> </div></li>
+        </ul>
+        </div>  
+  
+    </div>
+       </div>
+    
+    </div>
       <div className='moreInfo'>
         <div className='container'>
           <h1 className='moreInfoh1'>Do I need car insurance?</h1>
