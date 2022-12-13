@@ -12,6 +12,9 @@
 #homeInsBG{
     background-image: url(../../../../../../public/imgs/homeInsImg.png);
 }
+#bankInsBG{
+    background-image: url(../../../../../../public/imgs/bankBg.png);
+}
 .Ins-Bg {
     height: 90vh;
     max-height: 90vh;
@@ -71,7 +74,7 @@
     }
 
     .insTextImg-Img {
-        width: 600px
+        width: 500px
     }
 
 }
@@ -80,9 +83,15 @@
     .insTextImg-Img {
         width: 300px
     }
+    #family-helth{
+        max-width: 400px;
+        width: 400px;
+        align-self: center;
+    }
     #insLifeImg{
-        width: 345px;
-        padding: 0px;
+        max-width: 400px;
+        width: 400px;
+        align-self: center;
     }
 
 }
@@ -146,11 +155,19 @@
 #insLifeImg{
     border-style: solid;
     border: 0.1px;
-    padding: 40px;
     border-radius: 100px;
 }
 .carInsCardsPrice{
     color:var(--maincolor);
     font-size: 20px;
+
+}
+#family-helth{
+    max-width: 560px;
+    border: 0.1px;
+    border-style: solid;
+    border-radius: 80px;
+    border-color: white;
+    padding: 20px;
 
 }

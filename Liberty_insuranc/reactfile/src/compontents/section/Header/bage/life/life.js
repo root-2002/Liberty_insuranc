@@ -30,7 +30,7 @@ function life() {
             3-You might want to consider a policy that covers funeral expenses, to ease the cost for your family<br /><br />
             Life insurance isn’t a legal requirement, but it could give your dependents financial stability when you die. Read our guide on why you need life insurance.
           </p>
-          <img src='./imgs/life.png' className='insTextImg-Img' id='insLifeImg'></img>
+          <img src='./imgs/life.png' className='insTextImg-Img' id='insLifeImg' alt=' '></img>
         </div>
       </div>
       <div className='moreInfo'>
