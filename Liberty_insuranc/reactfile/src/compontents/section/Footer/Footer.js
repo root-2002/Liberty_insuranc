@@ -1,5 +1,3 @@
-
-
   import React from 'react'
   import 'bootstrap/dist/css/bootstrap.min.css'
   import {FaHome,FaPhoneAlt,FaEnvelope,FaPrint,FaFacebook,FaInstagram} from 'react-icons/fa'
