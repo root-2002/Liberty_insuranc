@@ -1,0 +1,73 @@
+#side_nav
+{
+    background-color: rgb(144, 15, 15);
+    min-width: 250px;
+    max-width: 250px;
+    z-index: 1;
+}
+.content{
+    min-height: 100%;
+    width: 100%;
+}
+.price{
+
+    position: fixed;
+    display: flex;
+    z-index: 5;
+}
+.price-container{
+    background-color: rgb(165, 26, 26);
+    height: 450px;
+    width: 250px;
+    margin-top:20%;
+
+
+  
+}
+.calc
+{
+    height: 250px;
+    color: aliceblue;
+    text-align: center;
+}
+.la{
+    margin-top: 10pc;
+}
+.iner
+{
+    padding: 10px;
+    border-radius:3px;
+}
+.bttn{
+    display: flex;
+
+    background-color: rgb(254, 254, 254);
+    border-radius:3px;
+    margin-left: 110px;
+}
+.Result
+{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.ops{
+    display: flex;
+    margin-left: 70px ;
+}
+.opss{
+    display: flex;
+    margin-left: 55px;
+}
+.hide{
+    display: none;
+}
+
+.opsss{
+    display: flex;
+    margin-left:80px;
+}
+.pris
+{
+    margin-top: 20px;
+}

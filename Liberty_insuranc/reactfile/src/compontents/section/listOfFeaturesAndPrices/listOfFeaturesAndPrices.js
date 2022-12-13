@@ -1,17 +1,17 @@
 import './listOfFeaturesAndPrices.css'
-function listOfFeaturesAndPrices() {
+function listOfFeaturesAndPrices(props) {
   return (
     <div>
        <div className='container-list'>
       
    
-    <h1>  Car Insurance plan </h1>
+    <h1>  {props.name} Insurance plan </h1>
     
     <div className='row'>
              <div className='col-12 col-sm-3 col-md-3 col-lg-3 '>
         <ul className="list-group">
              <li className="list-group-item">
-              <h1 className='pris'>$1000</h1>
+              <h1 className='pris'>{props.pris1}</h1>
              <p>Defined Benefit Limit</p>
              <h5>Accident Plan</h5>
              <p><img src='./imgs/star(1).png' alt='star' /> MOST AFFORDABLE</p>
@@ -27,7 +27,7 @@ function listOfFeaturesAndPrices() {
         <div className='col-12 col-sm-6 col-md-6 col-lg-6 '>
   <ul className="list-group">
   <li className="list-group-item">
-              <h1 className='pris'>$5000</h1>
+              <h1 className='pris'>{props.pris2}</h1>
              <p>Defined Benefit Limit</p>
              <h5>Accident Plan</h5>
              <p><img src='./imgs/star(1).png' alt='star' /> MOST AFFORDABLE</p>
@@ -44,7 +44,7 @@ function listOfFeaturesAndPrices() {
         <div className='col-12 col-sm-3 col-md-3 col-lg-3 '>
         <ul className="list-group">
              <li className="list-group-item">
-              <h1 className='pris'>$2500</h1>
+              <h1 className='pris'>{props.pris3}</h1>
              <p>Defined Benefit Limit</p>
              <h5>Accident Plan</h5>
              <p><img src='./imgs/star(1).png' alt='star' /> MOST AFFORDABLE</p>
