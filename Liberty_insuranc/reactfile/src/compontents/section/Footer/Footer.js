@@ -5,8 +5,8 @@ import "./Footer.css"
 import { Link } from 'react-router-dom';
 function footer(){
   return (
-    <div className='bg-dark'>
-    <div className='container-footer'>
+    <div className='bg-dark div-footer'>
+    <div className='container-footer '>
         <div className='row py-5 text-white'>
           <div className='col-lg-3 col-sm-12'>
             <h4 className="text-white footerText">liberty insurance</h4>
@@ -16,7 +16,7 @@ function footer(){
              That's why we've made it easy to customize your car insurance.
             </p>
           </div>
-          <div className='col-lg-3 col-sm-12'>
+          <div className='col-lg-3 col-sm-12 serv-Sec'>
             <h4 className="text-white footerText">services</h4>
             <p className='footerText'>about us</p>
             <p className='footerText'>Know more</p>
@@ -52,7 +52,8 @@ function footer(){
             <FaFacebook/><a href='https://github.com/root-2002/Liberty_insuranc' className='footerText'>Liberty_insurance</a><br />
             <FaInstagram/><a className='footerText' href='https://github.com/root-2002/Liberty_insuranc'>Liberty_insurance999</a><br />
                </div>
-             </div>     
+             </div>   
+            
             <div className='text-center text-white p-4'>
       © 2022 Copyright:
       <a className='text-reset fw-bold' href='https://github.com/root-2002/Liberty_insuranc'>
