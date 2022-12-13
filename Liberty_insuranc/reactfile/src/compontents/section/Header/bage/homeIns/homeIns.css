@@ -1,5 +1,16 @@
-.Ins-Bg {
+#lifeBG{
+    background-image: url(../../../../../../public/imgs/lifebg.png);
+    background-position-x: -390px;
+
+}
+#carInsBG{
+    background-image: url(../../../../../../public/imgs/carInsBG.png);
+}
+#homeInsBG{
     background-image: url(../../../../../../public/imgs/homeInsImg.png);
+
+}
+.Ins-Bg {
     height: 90vh;
     max-height: 90vh;
     min-height: 90vh;
@@ -10,11 +21,8 @@
     position: absolute;
 
 }
-#lifeBG{
-    background-image: url(../../../../../../public/imgs/lifebg.png);
-    background-position-x: -390px;
 
-}
+
 
 .bgBackBone {
     height: 90vh;

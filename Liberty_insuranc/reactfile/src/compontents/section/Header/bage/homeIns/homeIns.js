@@ -4,7 +4,7 @@ import './homeIns.css'
 function HomeIns() {
   return (
     <div>
-      <div className='Ins-Bg'>
+      <div className='Ins-Bg' id='homeInsBG'>
 
         <div className='bg-Info'>
           <div className='divStyle'>
@@ -68,7 +68,7 @@ function HomeIns() {
             *The average price paid for home insurance purchased in July 2022 by type of cover. For buildings and contents insurance, it was $191. For buildings insurance only, it was $150. For contents insurance only, it was $75.
 
           </p>
-          <img src='./imgs/home.png' className='insTextImg-Img'></img>
+          <img src='./imgs/home.png' className='insTextImg-Img'alt =""></img>
         </div>
       </div>
       <div className='moreInfo'>

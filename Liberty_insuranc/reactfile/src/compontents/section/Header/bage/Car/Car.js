@@ -4,47 +4,54 @@ import './Car.css'
 function Car() {
   return (
     <div>
-      <div className='Ins-Bg'>
+      <div className='Ins-Bg' id='carInsBG'>
 
         <div className='bg-Info'>
           <div className='divStyle'>
-            <h1 className='pageHeader'>Home Insurance</h1>
-            <p className='pageHeaderpara'>Protect The Place Where Memories Are Made </p>
+            <h1 className='pageHeader'>Car Insurance</h1>
+            <p className='pageHeaderpara'>Affordable Car insurance on and off the road </p>
           </div>
 
         </div>
       </div>
       <div className='bgBackBone'></div>
       <div className='container insInfo'>
-        <h1 className='insText'>What is home insurance?</h1>
-        <p className='insText ins-Para'>Home insurance covers loss and damage to your house and household contents. For example, if your home is damaged by a flood or fire, your insurance provider could cover the cost of any repairs or replacements needed.
+        <h1 className='insText'>What type of car insurance do I need?</h1>
+        <p className='insText ins-Para'>The best car insurance for you is an affordable policy that covers what you need – don’t just pick the cheapest option.<br/>
 
-          There are two types of home cover: buildings insurance and contents insurance. You can buy them individually or together as a combined policy.</p>
+You’ll need third party cover as a minimum. It’s compulsory, and you can’t legally drive without it. But exactly what you’re covered for depends on the type of policy you choose.<br/>
+
+</p>
         <div className='container d-md-flex'>
           <div class="card ins-CardsPage">
             <div class="card-body">
-              <h5 class="card-title">Buildings insurance</h5>
-              <p class="card-text insCardPara">Buildings insurance covers the structure of the property and its permanent fixtures and fittings. It may also cover driveways, patios, walls, fences, and any outbuildings including garages.<br /><br />
+              <h5 class="card-title">Comprehensive car insurance</h5><br/>
+              <p class="card-text insCardPara">This is the most extensive cover you can get. It covers you for:<br/><br/>
 
-                Most mortgage providers expect you to have it. If you're renting you don't need it.</p>
+1-Repair or replacement costs if your car’s damaged or written off<br/><br/>
+2-If your car's stolen or catches fire<br/><br/>
+3-Claims made against you for people, passengers and their property.<br/><br/>
+4-It may differ by policy, so check what you're covered for<br/><br/>
+</p>
             </div>
           </div>
           <div class="card ins-CardsPage">
             <div class="card-body">
-              <h5 class="card-title">Contents insurance</h5>
-              <p class="card-text insCardPara">Contents insurance covers damage or theft of your household items (e.g. your home appliances, furniture and jewellery).<br /><br />
-
-                Each item is only covered up to a limited amount. You'll see this called a 'single item limit', and it's usually around $1,500 but could be higher or lower.<br /><br />
-
-                Accidental damage and damage to items outside the home aren't covered as standard but can be for an extra cost.</p>
+              <h5 class="card-title">Third party, fire and theft</h5><br/>
+              <p class="card-text insCardPara">
+              1-This covers you for damage to other people, passengers or their property<br/><br/>
+2-Your car’s covered if it gets stolen or damaged by fire too<br/><br/>
+3-If you’re responsible for an accident, it won’t cover repairs to your vehicle or your own medical costs.<br/><br/></p>
             </div>
           </div>
           <div class="card ins-CardsPage">
             <div class="card-body">
-              <h5 class="card-title">Combined home insurance</h5>
-              <p class="card-text insCardPara">A combined buildings and contents insurance policy covers the structure of your home and your belongings.<br /><br />
-
-                If you need both, then taking out one policy with the same provider usually works out cheaper and can make things simpler if you need to make a claim (e.g. if there’s a fire it’ll be far easier reporting it all to one insurer instead of two).</p>
+              <h5 class="card-title">Third party only</h5>
+              <p class="card-text insCardPara">1-This is the most basic level of cover<br/><br/>
+2-It's lowest level of cover you need to legally drive your car in the UK.<br/><br/>
+3-You’ll only be covered for damage you cause to other people, passengers, or their property.<br/><br/>
+4-There’s no cover for you or your car.<br/><br/>
+5-If your car’s stolen, damaged or catches fire you won’t be able to claim back the cost.<br/><br/></p>
             </div>
           </div>
 
@@ -53,37 +60,33 @@ function Car() {
       </div>
       <br /><br />
       <div className='imgTextIns'>
-        <h1 className='insText'>How much is home insurance?</h1>
+        <h1 className='insText'>How much does car insurance cost?</h1><br />c
         <div className='container d-lg-flex'>
-          <p>The average price paid by GoCompare customers for a combined home insurance policy is $191 a year.<br />
+          <p>Insurers use statistics to work out how likely you are to make a claim on your car insurance – and that's what sets the price.<br /><br />
 
-            Buildings-only or contents-only cover is cheaper than a combined policy, but you won't get the same level of cover.<br />
+          The average price of a comprehensive policy is £549. Third party, fire and theft (TPFT) is considerably more at £734, and third party only (TPO) is more again, at £920.<br/><br />
 
-            According to our data, the average price paid for home insurance per year by cover type is:<br /><br />
+          These are just averages though – your quotes will depend on a lot more than just the cover type you choose. Your age, the car you drive, mileage and driving history all play a part.<br /><br />
 
-            1-Buildings and contents insurance - $191<br />
-            2-Buildings only insurance - $150<br />
-            3-Contents only insurance - $75<br /><br />
-            Things like the location, size of your house and previous claims can all impact the cost of your premium.<br /><br />
-            *The average price paid for home insurance purchased in July 2022 by type of cover. For buildings and contents insurance, it was $191. For buildings insurance only, it was $150. For contents insurance only, it was $75.
 
           </p>
-          <img src='./imgs/home.png' className='insTextImg-Img'></img>
+          <img src='./imgs/carPrice.png' className='insTextImg-Img' alt=""></img>
         </div>
       </div>
       <div className='moreInfo'>
         <div className='container'>
-          <h1 className='moreInfoh1'>How can I get cheaper home insurance?</h1>
+          <h1 className='moreInfoh1'>Do I need car insurance?</h1>
           <p className='moreInfoP'><br />
-            Here's eight tips that could help keep the cost of your premium down:<br /><br />1-Shop around for quotes - In the last year, 77% of people didn’t switch their home insurance to a new provider, potentially missing out on cheaper premiums.<br /><br />
-            2-Buy 29 days before your policy ends - Our research shows it’ll cost around 16% less than it would to buy it the day before your existing policy renews.<br /><br />
-            3-Improve your home security - Get insurer-approved locks for your home, as well as smoke and burglar alarm systems.<br /><br />
-            4-Regularly maintain your home - Staying on top of things and getting repairs done early can save you money in the long run.<br /><br />
-            5-Build your no-claim discount - For every year you don't make a claim, you'll likely reduce the cost of your premium.<br /><br />
-            6-Don't over-insure - Overestimating the value of your contents and the rebuild cost of your home will increase your premium. But if you're in any doubt, it's better to overestimate than underestimate.<br /><br />
-            7-Only pay for what you need - You'll be offered a variety of optional extras when you apply for home insurance. Remember the best home insurance policy for you is one that offers the cover you need at an affordable price.<br /><br />
-            8-Pay upfront - With monthly payments, you'll have to pay interest and sometimes a finance arrangement fee, so it'll be more expensive.<br /><br />
+Car insurance is a legal requirement if you’re driving in the UK. Find out more about choosing the right cover.<br />
 
+<h3>Car insurance for over 50s</h3><br />
+Having a wealth of driving experience means car insurance for over 50s is usually cheaper – and there are insurers that offer specialisist insurance too.<br /><br />
+
+<h3>Insurance for new drivers</h3><br />
+New and young drivers always pay more. But it doesn’t mean you can’t get insurance, or you can’t get a good deal.<br /><br />
+
+<h3>Learner driver insurance</h3><br />
+Learner drivers have a few options for getting covered before taking their test – whether that’s in your own car, or someone else’s.<br /><br />
           </p>
         </div>
       </div>
