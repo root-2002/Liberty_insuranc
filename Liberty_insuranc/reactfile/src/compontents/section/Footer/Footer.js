@@ -9,21 +9,21 @@ function footer(){
     <div className='container-footer'>
         <div className='row py-5 text-white'>
           <div className='col-lg-3 col-sm-12'>
-            <h4 className="text-danger footerText">liberty insurance</h4>
+            <h4 className="text-white footerText">liberty insurance</h4>
             <p className='footerText'>
             Yes, state laws set the minimum for what type and amount of coverage people need for auto insurance,
              but that doesn't mean it's enough for you. We're here to help you find the right coverages for you. 
              That's why we've made it easy to customize your car insurance.
-            </p><br/>
+            </p>
           </div>
           <div className='col-lg-3 col-sm-12'>
-            <h4 className="text-danger footerText">services</h4>
+            <h4 className="text-white footerText">services</h4>
             <p className='footerText'>about us</p>
             <p className='footerText'>Know more</p>
             <p className='footerText'>customer serv</p>
           </div>
           <div className='col-lg-3 col-sm-12'>
-            <h4 className="text-danger">our Insurances </h4>
+            <h4 className="text-white">our Insurances </h4>
             <Link to='/car'>
             <p className='footerText'>Car Insurances</p>
             </Link>
@@ -44,7 +44,7 @@ function footer(){
             </Link>
           </div>
           <div className='col-lg-3 col-sm-12 footerLinks'>
-            <h4 className="text-danger">Address</h4>
+            <h4 className="text-white">Address</h4>
             <FaHome /><a href="https://goo.gl/maps/aLrx65LYoaqjpLUa6"target="_blank" className='footerText'>  Nablus </a><br />
             <FaPhoneAlt/> <a href='https://github.com/root-2002/Liberty_insuranc' className='footerText' >+972 55456489</a><br />
             <FaEnvelope /><a href='https://github.com/root-2002/Liberty_insuranc' className='footerText'>Liberty9999@gmail.com</a><br />
