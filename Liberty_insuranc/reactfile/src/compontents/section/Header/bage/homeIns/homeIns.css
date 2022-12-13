@@ -90,7 +90,7 @@
     }
     #insLifeImg{
         max-width: 400px;
-        width: 400px;
+        width: 345px;
         align-self: center;
     }
 
@@ -170,4 +170,7 @@
     border-color: white;
     padding: 20px;
 
+}
+#contractsInsBG{
+    background-image: url(../../../../../../public/imgs/contracts.png);
 }
