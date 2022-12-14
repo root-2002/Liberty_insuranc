@@ -1,0 +1,181 @@
+#lifeBG{
+    background-image: url(../../../../../../public/imgs/lifebg.png);
+    background-position-x: -390px;
+
+}
+#carInsBG{
+    background-image: url(../../../../../../public/imgs/carInsBG.png);
+}
+#healthBG{
+    background-image: url(../../../../../../public/imgs/healthBg1.png);
+}
+#homeInsBG{
+    background-image: url(../../../../../../public/imgs/homeInsImg.png);
+}
+#bankInsBG{
+    background-image: url(../../../../../../public/imgs/bankBg.png);
+}
+.Ins-Bg {
+    height: 90vh;
+    max-height: 90vh;
+    min-height: 90vh;
+    background-position-y: 30%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+
+
+.bgBackBone {
+    height: 90vh;
+    max-height: 90vh;
+    min-height: 90vh;
+    width: 100%;
+    position: relative;
+}
+
+.divStyle {
+    min-height: 19vh;
+    position: absolute;
+
+    border-style: solid;
+    border: 0.1px;
+    border-radius: 40px;
+    margin-top: 36vh;
+    width: 100%;
+    text-align: center;
+}
+
+.pageHeader {
+    font-family: 'Anek Devanagari', sans-serif;
+    text-shadow: 4px 3px 2px var(--maincolor);
+    font-size: 56px;
+}
+
+.pageHeaderpara {
+    color: rgb(146, 162, 176);
+    font-family: 'Anek Devanagari', sans-serif;
+    text-shadow: 3px 1px 2px var(--maincolor);
+    font-size: 39px;
+    font-style: italic;
+}
+
+@media screen and (max-width: 1000px) {
+    .pageHeader {
+        font-size: 40px;
+    }
+
+    .pageHeaderpara {
+        font-size: 24px;
+        text-shadow: 2px 2px 3px var(--maincolor);
+    }
+
+    .insTextImg-Img {
+        width: 500px
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .Ins-Bg{
+        display: none;
+    }
+    .bgBackBone{
+    display: none;}
+    .insTextImg-Img {
+        width: 300px
+    }
+    #family-helth{
+        max-width: 400px;
+        width: 400px;
+        align-self: center;
+    }
+    #insLifeImg{
+        max-width: 400px;
+        width: 345px;
+        align-self: center;
+    }
+
+}
+
+.insInfo {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.ins-Para {
+    padding-bottom: 15px;
+    font-size: 22px;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+
+.ins-CardsPage {
+    margin: 10px;
+    width: 100%;
+    box-shadow: 3px 4px 15px black;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.insCardPara {
+    text-align: start;
+}
+
+.imgTextIns .insText {
+    text-align: center;
+}
+
+.imgTextIns p {
+    padding-top: 30px;
+    font-size: 22px;
+    font-family: 'Anek Devanagari', sans-serif;
+}
+.moreInfo{
+    margin-top: 30px;
+    background-color: rgba(250, 235, 215, 0.364);
+
+}
+.moreInfo .container {
+    padding: 20px;
+    
+}
+.moreInfoh1{
+    padding-top: 15px;
+    text-align: center;
+}
+.moreInfoP{
+    text-align: start;
+    font-family: 'Anek Devanagari', sans-serif;
+    font-size: 20px;
+
+
+}
+.insTextImg-Img {
+    max-width: 700px;
+    max-height: 600px;   
+}
+#insLifeImg{
+    max-width: 600px;
+    border-style: solid;
+    border: 0.1px;
+    border-radius: 100px;
+}
+.carInsCardsPrice{
+    color:var(--maincolor);
+    font-size: 20px;
+
+}
+#family-helth{
+    max-width: 560px;
+    border: 0.1px;
+    border-style: solid;
+    border-radius: 80px;
+    border-color: white;
+    padding: 20px;
+
+}
+#contractsInsBG{
+    background-image: url(../../../../../../public/imgs/contracts.png);
+}
