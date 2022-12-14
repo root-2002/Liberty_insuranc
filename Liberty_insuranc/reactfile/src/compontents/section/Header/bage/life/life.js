@@ -1,6 +1,6 @@
 import React from 'react'
 
-function life() {
+function Life() {
   return (
     <div>
       <div className='Ins-Bg' id="lifeBG">
@@ -63,4 +63,4 @@ function life() {
   )
 }
 
-export default life
+export default Life;

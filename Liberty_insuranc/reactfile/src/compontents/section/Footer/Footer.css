@@ -1,7 +1,48 @@
+.container-footer{
+  background-color: var(--maincolor);
+  padding: 1%;
+  padding-right: 3%;
+  padding-left: 3%;
+}
+.container-footer{
+  font-size: 14px;
+  word-spacing: 1px;
+  text-transform: capitalize;
+}
+.footerText{
+  font-family: 'Anek Devanagari', sans-serif;
+  font-size: 21px;
 
-.footr-c
-{
-  background-color:var(--edge);
-  padding: 30px;
+}
+.footerText:hover{
+
+  color: white;
+  
+}
+.footerLinks a:hover, a:visited, a:link, a:active {
+  color: white;
+  text-decoration: none;
+
+}
+.serv-Sec .footerText {
+ padding: 0px 40px;
  
+}
+.serv-Sec .footerText{
+  text-align: center start;
+}
+.bigerText{
+  font-size: 34px;
+}
+@media screen and (max-width: 992px) {
+
+  .serv-Sec .footerText {
+ padding: 0px 0px;
+ 
+}
+}
+.copyName{
+  border: 0.1px;
+  background-color: rgba(126, 125, 125, 0.479);
+  border-radius: 30px;
 }
