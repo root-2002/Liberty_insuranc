@@ -10,89 +10,91 @@ const InsuranceDepartments = () => {
   return (
     <>
       <div className='container-card'>
-        
+
         <div className=' row'>
-        <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className=' Card-ins'>
-            <div className='mCardBody card-body'>
+          <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
             <Link to='/car'>
-              <img src={img} alt='img'/>
-                <h4 className=" h4">Car Insurance</h4>
-                <p className=' pr'>We'll help you save hundreds</p>
-              </Link>
-            </div>
-           
+              <div className=' Card-ins'>
+
+                <div className='mCardBody card-body'>
+                  <img src={img} alt='img' />
+                  <h2 className=" h2 cardsTextHomePage">Car Insurance</h2>
+                  <p className=' pr cardsTextHomePage'>We'll help you save hundreds</p>
+                </div>
+              </div>
+            </Link>
           </div>
-        </div>
-        <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className=' Card-ins'>
-            <div className='mCardBody card-body'>
-              <Link to='/Bank'>
-                <img src="./imgs/airplane.png" alt='img'/>
-                <h4 className=" h4">travel Insurance</h4>
-                <p className=' pr'>Be protected at all time</p>
-              </Link>
-             
-            </div>
-           
+          <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+            <Link to='/Bank'>
+              <div className=' Card-ins'>
+                <div className='mCardBody card-body'>
+
+                  <img src="./imgs/airplane.png" alt='img' />
+                  <h2 className=" h2 cardsTextHomePage">travel Insurance</h2>
+                  <p className=' pr cardsTextHomePage'>Be protected at all time</p>
+
+
+                </div>
+
+              </div>
+            </Link>
           </div>
-        </div>
-        <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className=' Card-ins'>
-            <div className='mCardBody card-body'>
-                <Link to='Life'>
-                <img src={img2} alt='img'/>
-                <h4 className=" h4">Life Insurance</h4>
-                <p className=' pr'>Protect yourself and secure your life</p>
+          <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+            <Link to='Life'>
+              <div className=' Card-ins'>
+                <div className='mCardBody card-body'>
+                  <img src={img2} alt='img' />
+                  <h2 className=" h2 cardsTextHomePage">Life Insurance</h2>
+                  <p className=' pr cardsTextHomePage'>Protect yourself and secure your life</p>
+                </div>
+
+              </div>
+            </Link>
+          </div>
+
+          <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+            <Link to='/Health'>
+              <div className=' Card-ins'>
+                <div className='mCardBody card-body'>
+                  <img src={img3} alt='img' />
+                  <h2 className=" h2 cardsTextHomePage">Health Insurance</h2>
+                  <p className=' pr' cardsTextHomePage>Your health is more important than your money</p>
+                </div>
+
+              </div>
+            </Link>
+          </div>
+          <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+                <Link to='/Contracts'>
+            <div className=' Card-ins'>
+              <div className='mCardBody card-body'>
+                  <img src={img4} alt='img' />
+                  <h2 className=" h2 cardsTextHomePage">Contracts Insurance</h2>
+                  <p className=' pr cardsTextHomePage'>We'll help you save hundreds</p>
+              </div>
+
+            </div>
                 </Link>
-            </div>
-           
           </div>
-        </div>
-        
-        <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className=' Card-ins'>
-            <div className='mCardBody card-body'>
-                <Link to ='/Health'>
-                <img src={img3} alt='img'/>
-                <h4 className=" h4">Health Insurance</h4>
-                <p className=' pr'>Your health is more important than your money</p>
+          <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
+                <Link to='/HomeIns'>
+            <div className=' Card-ins'>
+              <div className='mCardBody card-body'>
+                  <img src={img5} alt='img' />
+                  <h2 className=" h2 cardsTextHomePage">Home Insurance</h2>
+                  <p className=' pr cardsTextHomePage'>protect your home</p>
+              </div>
+
+            </div>
                 </Link>
-            </div>
-           
           </div>
+
         </div>
-        <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className=' Card-ins'>
-            <div className='mCardBody card-body'>
-              <Link to='/Contracts'>
-                <img src={img4} alt='img'/>
-                <h4 className=" h4">Contracts Insurance</h4>
-                <p className=' pr'>We'll help you save hundreds</p>
-              </Link>
-            </div>
-           
-          </div>
-        </div>
-        <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-          <div className=' Card-ins'>
-            <div className='mCardBody card-body'>
-            <Link to='/HomeIns'>
-                <img src={img5} alt='img'/>
-                <h4 className=" h4">Home Insurance</h4>
-                <p className=' pr'>protect your home</p>
-                </Link>
-            </div>
-           
-          </div>
-        </div>
-        
-        </div>
-        
-       
+
+
       </div>
     </>
-    
+
   )
 }
 

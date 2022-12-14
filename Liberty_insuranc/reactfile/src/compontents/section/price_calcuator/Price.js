@@ -245,7 +245,7 @@ function Price() {
           </div>
         </div> : null
       }
-      <button onClick={() => setShow(!Show)} ><img src='./imgs/right-arrow.png' alt='arrow' /></button>
+      <button className="showPriceContent" onClick={() => setShow(!Show)} ><img src='./imgs/right-arrow.png' alt='arrow' /></button>
     </div>
 
   )

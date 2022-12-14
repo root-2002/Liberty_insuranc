@@ -5,10 +5,10 @@
   import { Link } from 'react-router-dom';
   function footer(){
     return (
-      <div className='bg-dark div-footer'>
+      <div className='bg-dark div-footer' id='div-footer'>
       <div className='container-footer '>
           <div className='row py-5 text-white footerContentDiv'>
-            <div className='col-lg-3 col-sm-12'>
+            <div className='col-lg-3 col-sm-12 footerInfo'>
               <h4 className="text-white footerText bigerText">liberty insurance</h4>
               <p className='footerText'>
               Yes, state laws set the minimum for what type and amount of coverage people need for auto insurance,
@@ -45,7 +45,7 @@
             </div>
             <div className='col-lg-3 col-sm-12 footerLinks'>
               <h4 className="footerText bigerText">Address</h4>
-              <FaHome /><a href="https://goo.gl/maps/aLrx65LYoaqjpLUa6"target="_blank" className='footerText'>  Nablus </a><br />
+              <FaHome /><a href="https://goo.gl/maps/aLrx65LYoaqjpLUa6"target="_blank" rel="noreferrer" className='footerText'>  Nablus </a><br />
               <FaPhoneAlt/> <a href='https://github.com/root-2002/Liberty_insuranc' className='footerText' >+972 55456489</a><br />
               <FaEnvelope /><a href='https://github.com/root-2002/Liberty_insuranc' className='footerText'>Liberty9999@gmail.com</a><br />
               <FaPrint /><a href='https://github.com/root-2002/Liberty_insuranc' className='footerText'>+09 54564564</a><br />
