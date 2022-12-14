@@ -1,9 +1,9 @@
 export {default as Container} from './Container/Container';
-export {default as Home} from './section/Header/bage/home/Home';
-export {default as Car} from './section/Header/bage/Car/Car';
-export {default as NotFound} from './section/Header/bage/notFound/notFound';
-export {default as Bank } from './section/Header/bage/bank/Bank';
-export {default as Life } from './section/Header/bage/life/life';
-export {default as Contracts} from './section/Header/bage/contracts/Contracts';
-export {default as Health } from './section/Header/bage/health/Health';
-export {default as HomeIns } from './section/Header/bage/homeIns/homeIns';
+export {default as Home} from './section/Header/page/home/Home';
+export {default as Car} from './section/Header/page/Car/Car';
+export {default as NotFound} from './section/Header/page/notFound/notFound';
+export {default as Bank } from './section/Header/page/bank/Bank';
+export {default as Life } from './section/Header/page/life/life';
+export {default as Contracts} from './section/Header/page/contracts/Contracts';
+export {default as Health } from './section/Header/page/health/Health';
+export {default as HomeIns } from './section/Header/page/homeIns/homeIns';
