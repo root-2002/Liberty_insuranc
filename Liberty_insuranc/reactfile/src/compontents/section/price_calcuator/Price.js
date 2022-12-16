@@ -35,36 +35,128 @@ function Price() {
     }
   }
   const calc = () => {
+    let issue=false;
 
     let Type = document.querySelectorAll("select");
     let price = document.querySelector("#Price").value;
     let Result =document.querySelector("#Result");
-    Result.innerHTML="hahaha"
+    let priceCar= price;
+    if(price === ""){
+      issue=true;
+    }
+    if (Type[0].value === "none"){
+        issue=true;
+    }
     if (Type[0].value === "private") {
 
 
       if (Type[2].value === "Mandatory") {
-        console.log(price);
+        if(Type[1].value ==="none"){
+          issue=true;
+        }
+        if(Type[1].value ==="1000cc"){
+          priceCar = priceCar * 0.02;
+        }
+        if(Type[1].value ==="1500cc"){
+          priceCar = priceCar * 0.028;
+        }
+        if(Type[1].value ==="2000cc"){
+          priceCar = priceCar * 0.031;
+        }
+        if(Type[1].value ==="2500cc"){
+          priceCar = priceCar * 0.034;
+        }
         
       }
       if (Type[2].value === "comprehensive") {
-        console.log(price);
+        if(Type[1].value ==="none"){
+          issue=true;
+        }
+        if(Type[1].value ==="1000cc"){
+          priceCar = priceCar * 0.031;
+        }
+        if(Type[1].value ==="1500cc"){
+          priceCar = priceCar * 0.038;
+        }
+        if(Type[1].value ==="2000cc"){
+          priceCar = priceCar * 0.045;
+        }
+        if(Type[1].value ==="2500cc"){
+          priceCar = priceCar * 0.05;
+        }
       }
       if (Type[2].value === "VIP") {
-        console.log(price);
+        if(Type[1].value ==="none"){
+          issue=true;
+        }
+        if(Type[1].value ==="1000cc"){
+          priceCar = priceCar * 0.042;
+        }
+        if(Type[1].value ==="1500cc"){
+          priceCar = priceCar * 0.049;
+        }
+        if(Type[1].value ==="2000cc"){
+          priceCar = priceCar * 0.054;
+        }
+        if(Type[1].value ==="2500cc"){
+          priceCar = priceCar * 0.06;
+        }
       }
 
     }
     if (Type[0].value === "public") {
 
       if (Type[2].value === "Mandatory") {
-        console.log(price);
+        if(Type[1].value ==="none"){
+          issue=true;
+        }
+        if(Type[1].value ==="1000cc"){
+          priceCar = priceCar * 0.036;
+        }
+        if(Type[1].value ==="1500cc"){
+          priceCar = priceCar * 0.04;
+        }
+        if(Type[1].value ==="2000cc"){
+          priceCar = priceCar * 0.048;
+        }
+        if(Type[1].value ==="2500cc"){
+          priceCar = priceCar * 0.05;
+        }
       }
       if (Type[2].value === "comprehensive") {
-        console.log(price);
+        if(Type[1].value ==="none"){
+          issue=true;
+        }
+        if(Type[1].value ==="1000cc"){
+          priceCar = priceCar * 0.042;
+        }
+        if(Type[1].value ==="1500cc"){
+          priceCar = priceCar * 0.05;
+        }
+        if(Type[1].value ==="2000cc"){
+          priceCar = priceCar * 0.058;
+        }
+        if(Type[1].value ==="2500cc"){
+          priceCar = priceCar * 0.061;
+        }
       }
       if (Type[2].value === "VIP") {
-        console.log(price);
+        if(Type[1].value ==="none"){
+          issue=true;
+        }
+        
+        if(Type[1].value ==="1000cc"){
+          priceCar = priceCar * 0.06;
+        }
+        if(Type[1].value ==="1500cc"){
+          priceCar = priceCar * 0.069;
+        }
+        if(Type[1].value ==="2000cc"){
+          priceCar = priceCar * 0.073;
+        }
+        if(Type[1].value ==="2500cc"){
+          priceCar = priceCar * 0.077;
+        }
       }
 
     }
@@ -72,36 +164,36 @@ function Price() {
 
       if (Type[2].value === "Mandatory") {
         if (Type[3].value === "7") {
-          console.log(price);
+          priceCar = priceCar * 0.02;
         }
         if (Type[3].value === "18") {
-          console.log(price);
+          priceCar = priceCar * 0.025;
         }
         if (Type[3].value === "24") {
-          console.log(price);
+          priceCar = priceCar * 0.03;
         }
 
       }
       if (Type[2].value === "comprehensive") {
         if (Type[3].value === "7") {
-          console.log(price);
+          priceCar = priceCar * 0.035;
         }
         if (Type[3].value === "18") {
-          console.log(price);
+          priceCar = priceCar * 0.04;
         }
         if (Type[3].value === "24") {
-          console.log(price);
+          priceCar = priceCar * 0.052;
         }
       }
       if (Type[2].value === "VIP") {
         if (Type[3].value === "7") {
-          console.log(price);
+          priceCar = priceCar * 0.042;
         }
         if (Type[3].value === "18") {
-          console.log(price);
+          priceCar = priceCar * 0.05;
         }
         if (Type[3].value === "24") {
-          console.log(price);
+          priceCar = priceCar * 0.059;
         }
       }
 
@@ -110,43 +202,48 @@ function Price() {
 
       if (Type[2].value === "Mandatory") {
         if (Type[4].value === "250cc") {
-          console.log(price);
+          priceCar = priceCar * 0.04;
         }
         if (Type[4].value === "450cc") {
-          console.log(price);
+          priceCar = priceCar * 0.05;
         }
         if (Type[4].value === "500cc") {
-          console.log(price);
+          priceCar = priceCar * 0.06;
         }
 
 
       }
       if (Type[2].value === "comprehensive") {
         if (Type[4].value === "250cc") {
-          console.log(price);
+          priceCar = priceCar * 0.07;
         }
         if (Type[4].value === "450cc") {
-          console.log(price);
+          priceCar = priceCar * 0.08;
         }
         if (Type[4].value === "500cc") {
-          console.log(price);
+          priceCar = priceCar * 0.082;
         }
       }
       if (Type[2].value === "VIP") {
         if (Type[4].value === "250cc") {
-          console.log(price);
+          priceCar = priceCar * 0.074;
         }
         if (Type[4].value === "450cc") {
-          console.log(price);
+          priceCar = priceCar * 0.089;
         }
         if (Type[4].value === "500cc") {
-          console.log(price);
+          priceCar = priceCar * 0.094;
         }
       }
 
     }
+    if(issue){
+      Result.innerHTML="Wrong Input"
 
-  }
+    }
+    else{
+    Result.innerHTML=""+(Math.round(priceCar * 100) / 100).toFixed(2) +"$";
+  }}
   return (
     <div className='price'>
       {
@@ -156,7 +253,7 @@ function Price() {
               <span className='ops' id='typeoflinc'>Type of license</span>
               <div className="op">
                 <select name='type' id="Type" >
-                  <option>
+                  <option value="none">
                     -----
                   </option>
                   <option value="private">
@@ -177,7 +274,7 @@ function Price() {
               <form className='hide'>
                 <span className='ops'>Number of CC</span>
                 <select id="Type" >
-                  <option>
+                  <option value='none'>
                     -----
                   </option>
                   <option value="1000cc">
@@ -240,7 +337,7 @@ function Price() {
               </form>
               <input className='pris' id="Price" />
               <button className='bttn ' onClick={calc} >calc</button>
-              <label className='Result' id='Result'>----</label>
+              <label className='Result' id='Result'>Please Enter Inputs</label>
             </div>
           </div>
         </div> : null
