@@ -1,9 +1,11 @@
 import './Navbar.css'
 import { Link } from 'react-router-dom';
 
+
 //note :- NavBar has not been Linked yet
 
 const Navbar = () => {
+  
 
   return (
     <div className='divNav'>
@@ -29,10 +31,7 @@ const Navbar = () => {
             <a href="#Services" className="nav-link">Services</a>
           </li>
           <li className="nav-item">
-            <a href="#About us" className="nav-link">About us</a>
-          </li>
-          <li className="nav-item">
-            <a href="#Contact us" className="nav-link">Contact us</a>
+            <a href="#div-footer" className="nav-link">About us</a>
           </li>
         </ul>
       </div>

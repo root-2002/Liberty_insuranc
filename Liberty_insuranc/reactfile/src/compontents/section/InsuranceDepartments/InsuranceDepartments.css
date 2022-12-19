@@ -9,12 +9,16 @@ a:hover, a:visited, a:link, a:active
 }
 .Card-ins{
     border-radius: 10px;
-    width: 12rem;
+    width: 100%;
  background-color: #fff;
    padding: 20px;
    margin-left: 10px;
    margin-top: 20px;
-   box-shadow: 2px 4px;
+   box-shadow: 4px 2px 30px var(--infocolor),1px 3px 5px black ;
+   min-height: 97%;
+   border:transparent;
+   border-style: solid;
+  
 }
 .log
 {
@@ -22,25 +26,17 @@ a:hover, a:visited, a:link, a:active
 }
 .pr{
     color:rgb(0, 0, 0);
-    display: none;
-    padding: 10px;
+    
+    font-size:25px;
 }
-.h4{
+.h2{
     color:rgb(0, 0, 0);
     padding-top:15px;
     padding-right: 30px;;
     
 }
-.h4{
-    color:rgb(0, 0, 0);
-    padding-top:15px
-}
-.h4:hover +p{
 
-    display: block;
-    
 
-}
 
 .link
 {
@@ -56,9 +52,25 @@ a:hover, a:visited, a:link, a:active
     
 
 }
-.mCardBody{
-    padding: 20px;
-    max-width :100px;
-    min-width: 100px;
-    min-height: 230px;
+@media screen and (max-width:796px) {
+    .Card-ins{
+        min-height: 45vh;
+    }
+}
+@media screen and (max-width:1375px) {
+    .Card-ins{
+        min-height: 93%;
+    }
+}
+@media screen and (max-width:768px) {
+    .Card-ins{
+        max-width: 80%;
+    }
+}
+.Card-ins:hover{
+    margin: 5px 4px ;
+    box-shadow: 4px 2px 40px var(--infocolor),1px 1px 10px gold ;
+}
+.cardsTextHomePage{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }

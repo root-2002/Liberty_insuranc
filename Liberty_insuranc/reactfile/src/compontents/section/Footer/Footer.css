@@ -1,7 +1,7 @@
 .container-footer{
-  background-color: var(--maincolor);
+  background-color: var(--edge);
   padding: 1%;
-  padding-right: 3%;
+  padding-right: 7%;
   padding-left: 3%;
 }
 .container-footer{
@@ -45,4 +45,27 @@
   border: 0.1px;
   background-color: rgba(126, 125, 125, 0.479);
   border-radius: 30px;
+}
+@media screen and (max-width:500px) {
+  .footerLinks{
+    font-size: 10px;
+  }
+  .footerLinks a{
+    font-size: 15px;
+  }
+  .footerInfo{
+    padding: 2%;
+  }
+  .footerInfo p{
+    padding: 2%;
+    font-size: 15px;
+  }
+  
+}
+@media screen and (max-width:303px) {
+  .footerLinks{
+    display: none;
+  }
+  
+  
 }

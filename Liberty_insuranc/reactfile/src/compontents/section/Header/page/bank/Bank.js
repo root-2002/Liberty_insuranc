@@ -1,6 +1,8 @@
 import React from 'react'
 
+
 function Bank() {
+  
   return (
     <div>
       <div className='Ins-Bg' id='bankInsBG'>
