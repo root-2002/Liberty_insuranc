@@ -8,14 +8,16 @@ a:hover, a:visited, a:link, a:active
     
 }
 .Card-ins{
+    
     border-radius: 10px;
     width: 100%;
+    min-width: 100px;
  background-color: #fff;
    padding: 20px;
    margin-left: 10px;
    margin-top: 20px;
    box-shadow: 4px 2px 30px var(--seccolor),1px 3px 5px black ;
-   min-height: 97%;
+   min-height: 94%;
    border:transparent;
    border-style: solid;
 }
@@ -44,6 +46,7 @@ a:hover, a:visited, a:link, a:active
 }
 
 .Mcard img {
+    width: 30%;
     position: relative;
     margin-left:auto;
     margin-right: auto;
@@ -55,20 +58,29 @@ a:hover, a:visited, a:link, a:active
     .Card-ins{
         min-height: 45vh;
     }
+    .Mcard img{
+        width: 63%;
+    }
 }
 @media screen and (max-width:1375px) {
     .Card-ins{
         min-height: 93%;
+    }
+    .Mcard img{
+        width: 50%;
     }
 }
 @media screen and (max-width:768px) {
     .Card-ins{
         max-width: 80%  ;
     }
+    .Mcard img{
+        width: 30%;
+    }
 }
 .Card-ins:hover{
     margin: 5px 4px ;
-    box-shadow: 1px 2px 3px gold ,1px 2px 3px black;
+   
 }
 .cardsTextHomePage{
     font-family: 'Yanone Kaffeesatz', sans-serif;
