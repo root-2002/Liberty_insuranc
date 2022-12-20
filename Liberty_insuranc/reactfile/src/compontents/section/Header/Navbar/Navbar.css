@@ -1,10 +1,13 @@
+.logo{
+  width: 90px;
+}
 .navbar{
     background-color: var(--edge);
-    height: 55px;
-}
+    min-height: 55px;
+   }
 #insurs:hover .mega-box{
     
-    top: 40px;
+    top: 60px;
     opacity: 1;
     visibility: visible;
   }
@@ -30,6 +33,7 @@
   }
   .navLink{
     text-decoration: none;
+    color: #fff;
    
   }
   .navLink :hover{
@@ -37,6 +41,7 @@
   }
 .nav-link{
     text-decoration: none;
+    max-width: 150px;
 }
 .navbar-brand
 {
@@ -44,4 +49,38 @@
 }
 .navback{
     height: 54px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+
+}
+.nav-item{
+  max-width: 150px;
+}
+@media  screen and (max-width: 972px) {
+  #insurs:hover .mega-box{
+    top:125px;
+  }
+ 
+}
+.content .row{
+  max-width: 20px;
+  min-width: 150px;
+  
+}
+@media  screen and (max-width: 1013px) {
+  
+  .mega-links{
+    display: none;
+  }
+}
+@media screen  and (min-width: 1200px){
+  .content .row{
+    max-width: 210px;
+    
+    
+  }
+  
 }
