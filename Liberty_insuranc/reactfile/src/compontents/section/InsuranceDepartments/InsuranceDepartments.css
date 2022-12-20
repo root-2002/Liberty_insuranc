@@ -68,7 +68,7 @@ a:hover, a:visited, a:link, a:active
 }
 .Card-ins:hover{
     margin: 5px 4px ;
-    box-shadow: 1px 2px 5px gold ,1px 2px 3px black;
+    box-shadow: 1px 2px 3px gold ,1px 2px 3px black;
 }
 .cardsTextHomePage{
     font-family: 'Yanone Kaffeesatz', sans-serif;
