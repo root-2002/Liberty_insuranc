@@ -1,9 +1,19 @@
 .logo{
-  width: 90px;
+  
+  height: 30px;
+}
+.nava{
+margin-left:75%;
+}
+@media screen  and (max-width: 992px){
+  .nava{
+    margin-left: 0%;
+    }
+  
 }
 .navbar{
     background-color: var(--edge);
-    min-height: 55px;
+    min-height: 50px;
    }
 #insurs:hover .mega-box{
     

@@ -16,6 +16,9 @@ const Navbar = () => {
       <span class="navbar-toggler-icon"></span>
     </button>
               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div className='nava'>
+
+               
                   <ul className="navbar-nav">
                     <li className="nav-item">
                       <div id="home-link">
@@ -72,6 +75,7 @@ const Navbar = () => {
                      </div>
                    </li>
                 </ul>
+                </div>
               </div>
             </div>
           </nav>
