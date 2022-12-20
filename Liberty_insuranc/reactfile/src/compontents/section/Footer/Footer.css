@@ -19,7 +19,7 @@
   color: white;
   
 }
-.footerLinks a:hover, a:visited, a:link, a:active {
+.footerLinks a:hover a:visited a:link a:active {
   color: white;
   text-decoration: none;
 

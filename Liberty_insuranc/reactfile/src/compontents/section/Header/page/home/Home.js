@@ -4,12 +4,10 @@ import {InsuranceDepartments,ListOfFeaturesAndPrices,HomePage } from '../../../i
 
 function Home() {
   return (
-    <div>
+    <div className='container-home'>
     
     <HomePage/>
       <InsuranceDepartments/>
-      <ListOfFeaturesAndPrices name ="car" pris1="$1000" pris2="$5000" pris3="$2500"/>
-      
     </div>
    
   )

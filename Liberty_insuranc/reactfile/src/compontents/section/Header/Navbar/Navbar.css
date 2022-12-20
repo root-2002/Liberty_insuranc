@@ -1,6 +1,47 @@
 .navbar{
-    background-color: var(--maincolor);
+    background-color: var(--edge);
+    height: 55px;
 }
-.navbar a{
-    color: black;
+#insurs:hover .mega-box{
+    
+    top: 40px;
+    opacity: 1;
+    visibility: visible;
+  }
+  .mega-box{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0 30px;
+    top: 100px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .mega-box  .content{
+    background: var(--edge);
+    padding: 10px 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .mega-box .content {
+   
+    line-height: 50px;
+  }
+  .navLink{
+    text-decoration: none;
+   
+  }
+  .navLink :hover{
+    color: #fff;
+  }
+.nav-link{
+    text-decoration: none;
+}
+.navbar-brand
+{
+    text-decoration: none;
+}
+.navback{
+    height: 54px;
 }

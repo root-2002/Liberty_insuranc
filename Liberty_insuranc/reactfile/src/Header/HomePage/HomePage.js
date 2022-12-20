@@ -12,7 +12,7 @@ export default function HomePage() {
           
           </div>
           
- 
+          
     </div>
     <div className='container-fluid '>
     <h2 className="underHeader">What Do We Have To Offer ?</h2>
