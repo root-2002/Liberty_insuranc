@@ -1,14 +1,4 @@
-
-*{
-    font-family: 'poppins', sans-serif;
-    margin:0; padding:0;
-    box-sizing:border-box;
-    outline: none; border: none;
-    text-transform: capitalize;
-    transition: all .2s linear;
-}
-
-.container {
+.payCon {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,52 +7,52 @@
     background-color:  rgba(126, 125, 125, 0.479);
     padding-bottom: 70px;
 }
-.container form {
+.payCon  .payForm1 {
     padding: 20px;
     width: 700px;
     background:#fff;
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
 }
 
-.container form .row{
+.payCon  .payForm1 .row{
     display: flex;
     flex-wrap: wrap;
     gap:15px;
 }
-.container form .row .col{
+.payCon  .payForm1 .row .col Paying{
     flex:1 1 250px;
 }
 
-.container form .row .col .title{
+.payCon  .payForm1 .row .col Paying .title{
    font-size: 20px;
     color: #333 ;
     padding-bottom: 5px;
     text-transform: uppercase;
 }
-.container form .row .col .inputbox{
+.payCon  .payForm1 .row .col Paying .inputbox{
             margin: 15px 0;          
  }
- .container form .row .col .inputbox span{
+ .payCon  .payForm1 .row .col Paying .inputbox span{
     margin-bottom: 10px;
     display: block;
  }
-.container .row .col .inputbox input{
+.payCon .row .col Paying .inputbox input{
     width: 100%;
     border: 1px solid #ccc;
     padding :10px 15px;
     font-size: 15px;
     text-transform: none;
 }
-.container .row .col .inputbox input:focus{
+.payCon .row .col Paying .inputbox input:focus{
     border: 1px solid #000; 
 }
-.container .row .col .flex{
+.payCon .row .col Paying .flex{
     gap: 15px;
 }
-.container .row .col .flex .inputbox{
+.payCon .row .col Paying .flex .inputbox{
     margin: 5px;
 }
-.container .submit-btn{
+.payCon .submit-btn{
     width: 100%;
     padding: 12px;
     font-size: 17px;
@@ -71,6 +61,13 @@
     margin-top: 5px;
     cursor: pointer;
 }
-.container .submit-btn:hover{
+.payCon .submit-btn:hover{
     background: rgba(126, 125, 125, 0.479);
 }
+
+
+
+
+
+
+

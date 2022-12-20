@@ -1,44 +1,44 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { Link } from 'react-router-dom';
-import "./assets/css/style.css";
+import "./paymethod.css";
 
 function Paymethod() {
   return (
     <div className="paymethod">
-      <div class="container">
+      <div class="container payCon">
 
-<form action="">
+<form className="payForm1"action="">
 
-<div class="row">
+<div className="row 3 ">
 
-    <div class="col">
+    <div className="col Paying">
 
-        <h3 class="title">billing address</h3>
-        <div class="inputbox">
+        <h3 className="title ">billing address</h3>
+        <div className="inputbox">
             <span>full name :</span>
             <input type="text" placeholder="Mohamad"></input>
         </div>
 
-        <div class="inputbox">
+        <div className="inputbox">
             <span>email :</span>
             <input type="email" placeholder="example@example.com"></input>
         </div>
 
-        <div class="inputbox">
+        <div className="inputbox">
             <span>address :</span>
             <input type="text" placeholder="room-street- location"></input>
         </div>
-        <div class="inputbox">
+        <div className="inputbox">
             <span>city :</span>
             <input type="text" placeholder="nablus"></input>
         </div>
-       <div class="flex">
-        <div class="inputbox">
+       <div className="flex">
+        <div className="inputbox">
             <span>state :</span>
             <input type="text" placeholder="Palestine"></input>
         </div>
-        <div class="inputbox">
+        <div className="inputbox">
             <span>ZIP code :</span>
             <input type="text" placeholder="47465 798542"></input>
         </div>
@@ -47,35 +47,35 @@ function Paymethod() {
 
     </div>
 
-    <div class="col">
+    <div className="col">
 
-        <h3 class="title">payment</h3>
-        <div class="inputbox">
+        <h3 className="title">payment</h3>
+        <div className="inputbox">
             <span>cards accepted:</span>
-            <div class="credit">
-                <img src="./imags/pm.png" alt=""></img>
+            <div className="credit">
+                <img src="./imgs/pm.png" alt=""></img>
             </div>
         </div>
 
-        <div class="inputbox">
+        <div className="inputbox">
             <span>name on card  :</span>
             <input type="text" placeholder="mr. Mohamad"></input>
         </div>
 
-        <div class="inputbox">
+        <div className="inputbox">
             <span>card number:</span>
             <input type="number" placeholder="1234-5678-2222-5555"></input>
         </div>
-        <div class="inputbox">
+        <div className="inputbox">
             <span>exp month:</span>
             <input type="text" placeholder="may"></input>
         </div>
-       <div class="flex">
-        <div class="inputbox">
+       <div className="flex">
+        <div className="inputbox">
             <span>exp year:</span>
             <input type="number" placeholder="2022"></input>
         </div>
-        <div class="inputbox">
+        <div className="inputbox">
             <span>CVV :</span>
             <input type="text" placeholder="111"></input>
         </div>
@@ -95,4 +95,5 @@ function Paymethod() {
   );
 }
 
-export default paymethod;
+export default Paymethod;
+

@@ -26,6 +26,7 @@ function App() {
         <Route path='/homeIns' element={<HomeIns/>}/>
          <Route path='*' element={<NotFound/>} />
       </Routes>
+      <Paymethod/>
     <Footer/>
     
     </BrowserRouter>
