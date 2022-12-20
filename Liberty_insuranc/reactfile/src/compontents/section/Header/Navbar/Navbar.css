@@ -1,6 +1,17 @@
 .navbar{
-    background-color: var(--maincolor);
+    background-color: var(--maincolor); 
+
 }
 .navbar a{
     color: black;
+}
+.divNav{
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+}
+.Hello{
+    width: 100%;
+    position: relative;
+    padding: 4.5vh;
 }
