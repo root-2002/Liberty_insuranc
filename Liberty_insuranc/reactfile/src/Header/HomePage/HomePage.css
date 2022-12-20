@@ -5,30 +5,35 @@ body {
 }
 .homeBanner{
 	background-image: url(../../../public/imgs/homeBanner.png);
-	position: relative;
 	align-items: center;
 	margin: auto;
-	max-height: 974px;
+	max-height: 706px;
 	width: 100%;
 	background-size: contain;
 	background-repeat: no-repeat;
+	
 }
 
 .headerH2{
-	position: relative;
+
 	text-align: center;
 	color: aliceblue;
 	padding-bottom: 3px;
 	font-family: 'Anek Devanagari', sans-serif;
+    margin-top: auto;
+	margin-bottom: auto;
+	
 }
 .homeBanner div h1{
-	position: relative;
+	padding-bottom: 60px;
+
 	text-align: center;
 	color: aliceblue;
 	font-family: 'Anek Devanagari', sans-serif;
+	
 }
 .header-cont{
-	padding-top: 40%;
+	padding-top: 38%;
 }
 .underHeader{
 	text-align: center;
@@ -75,4 +80,8 @@ body {
 }
 #homeBottomImg{
 	margin-left: 5%;
+}
+@media screen and(max-width:1200px) {
+
+	
 }
