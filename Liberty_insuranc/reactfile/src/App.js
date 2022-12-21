@@ -5,8 +5,6 @@ import {BrowserRouter , Route ,Routes} from 'react-router-dom'
 import { Component } from 'react';
 import ScrollToTop from './compontents/section/ScrollToTheTop'
 
-
-
 function App() {
  
   return (

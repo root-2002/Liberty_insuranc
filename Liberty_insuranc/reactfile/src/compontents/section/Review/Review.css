@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+#customer-Review{
+    width:100%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    padding-bottom: 100px;
+}
+.review-title{
+    letter-spacing: 1px;
+    margin: 30px 0px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    color: black;
+    padding: 10px 20px;
+}
+
+.box-details{
+    width:500px;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 15px;
+    cursor: pointer;
+}
+.cus-img{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.box-contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100%;
+}
+
+.customer{
+    display: flex;
+    align-items: center;
+}
+.cus-name{
+    display: flex;
+    flex-direction: column;
+}
+.cus-name strong{
+    color: #3d3d3d;
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+.cus-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.cus-name span{
+    color: #979797;
+    font-size: 13px;
+}
+.box-details:hover{
+    transform: translateY(-15px);
+    transition: all ease 0.4s;
+}
+.reviews{
+    color: #f9d71c;
+}
+.top-of-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cust-comment p{
+    font-size: 15px;
+    color: #4b4b4b;
+}
+
+ 
+@media(max-width:1060px){
+    .box-details{
+        width:45%;
+        padding: 10px;
+    }
+}
+@media(max-width:790px){
+    .box-details{
+        width:100%;
+    }
+    .review-title h1{
+        font-size: 30px;
+    }
+}
+@media(max-width:340px){
+    .top-of-box{
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    .reviews{
+        margin-top: 10px;
+    }
+}
