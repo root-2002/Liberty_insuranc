@@ -1,17 +1,17 @@
 
 body {
 	font-family:'Courier New', Courier, monospace;
-	min-width: 300px;
+	min-width: 516px;
 }
 .homeBanner{
-	background-image: url(../../../public/imgs/homeBanner.png);
+	background-image: url(../../../public/imgs/homeBanner1.png);
 	align-items: center;
 	margin: auto;
 	max-height: 706px;
 	width: 100%;
-	background-size: contain;
-	background-repeat: no-repeat;
-	
+	background-size: cover;
+	background-repeat: repeat-x;
+	max-width: 1800px;
 }
 
 .headerH2{
@@ -25,15 +25,13 @@ body {
 	
 }
 .homeBanner div h1{
-	padding-bottom: 60px;
-
 	text-align: center;
 	color: aliceblue;
 	font-family: 'Anek Devanagari', sans-serif;
 	
 }
 .header-cont{
-	padding-top: 38%;
+	padding-top: 21%;
 }
 .underHeader{
 	text-align: center;
@@ -81,7 +79,37 @@ body {
 #homeBottomImg{
 	margin-left: 5%;
 }
-@media screen and(max-width:1200px) {
+.thirdOff,
+.firstOff{
+	animation: animate 1.5s linear 1;
+}
+@keyframes animate{
 
-	
+	0%{
+		filter: opacity(0);
+		padding-left: 200px;
+		
+	}
+	100%{
+		filter: opacity(1);
+		padding-left: 0px;
+		
+	}
+}
+
+.secOff{
+	animation: animateOfSec 1.5s linear 1;
+}
+@keyframes animateOfSec{
+
+	0%{
+		filter: opacity(0);
+		padding-right: 200px;
+		
+	}
+	100%{
+		filter: opacity(1);
+		padding-right: 0px;
+		
+	}
 }

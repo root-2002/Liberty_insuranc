@@ -16,7 +16,7 @@ export default function HomePage() {
     </div>
     <div className='container-fluid '>
     <h2 className="underHeader">What Do We Have To Offer ?</h2>
-    <div className='container offercon'>
+    <div className='container offercon firstOff'>
       <div className='img-col'>
         <img src='./imgs/homeFamily.png' id='offImg' alt=" "></img>
       </div>
@@ -29,7 +29,7 @@ export default function HomePage() {
       </div>
     </div>
     </div>
-    <div className='container offercon'>
+    <div className='container offercon secOff'>
       <div className='text-col'>
         <h2 className='homeUpText'>Taking care</h2>
         <h1 className='homeUpText'>OF YOUR HOME</h1>
@@ -48,7 +48,7 @@ export default function HomePage() {
         </p>
       </div>
     </div>
-    <div className='container offercon'>
+    <div className='container offercon thirdOff'>
       <div className='img-col'>
         <img src='./imgs/homeCar.png' alt=" "></img>
       </div>
