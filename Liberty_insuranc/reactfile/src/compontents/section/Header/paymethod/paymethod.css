@@ -14,42 +14,42 @@
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
 }
 
-.payCon  .payForm1 .row{
+.payCon  .payForm1 .payrow{
     display: flex;
     flex-wrap: wrap;
     gap:15px;
 }
-.payCon  .payForm1 .row .col Paying{
+.payCon  .payForm1 .payrow .paycol{
     flex:1 1 250px;
 }
 
-.payCon  .payForm1 .row .col Paying .title{
+.payCon  .payForm1 .payrow .paycol .title{
    font-size: 20px;
-    color: #333 ;
+    paycolor: #333 ;
     padding-bottom: 5px;
     text-transform: uppercase;
 }
-.payCon  .payForm1 .row .col Paying .inputbox{
+.payCon  .payForm1 .payrow .paycol .inputbox{
             margin: 15px 0;          
  }
- .payCon  .payForm1 .row .col Paying .inputbox span{
+ .payCon  .payForm1 .payrow .paycol .inputbox span{
     margin-bottom: 10px;
     display: block;
  }
-.payCon .row .col Paying .inputbox input{
+.payCon .payrow .paycol .inputbox input{
     width: 100%;
     border: 1px solid #ccc;
     padding :10px 15px;
     font-size: 15px;
     text-transform: none;
 }
-.payCon .row .col Paying .inputbox input:focus{
+.payCon .payrow .paycol .inputbox input:focus{
     border: 1px solid #000; 
 }
-.payCon .row .col Paying .flex{
+.payCon .payrow .paycol .flex{
     gap: 15px;
 }
-.payCon .row .col Paying .flex .inputbox{
+.payCon .payrow .paycol .flex .inputbox{
     margin: 5px;
 }
 .payCon .submit-btn{
@@ -62,7 +62,7 @@
     cursor: pointer;
 }
 .payCon .submit-btn:hover{
-    background: rgba(126, 125, 125, 0.479);
+    background: rgba(0, 0, 0, 0.479);
 }
 
 

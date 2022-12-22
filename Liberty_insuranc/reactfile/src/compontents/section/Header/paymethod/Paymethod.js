@@ -10,7 +10,7 @@ function Paymethod() {
 
 <form className="payForm1"action="">
 
-<div className="row 3 ">
+<div className="payrow">
 
     <div className="col Paying">
 
@@ -47,7 +47,7 @@ function Paymethod() {
 
     </div>
 
-    <div className="col">
+    <div className="col Paying">
 
         <h3 className="title">payment</h3>
         <div className="inputbox">
