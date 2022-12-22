@@ -12,7 +12,7 @@ function Paymethod() {
 
 <div className="payrow">
 
-    <div className="col Paying">
+    <div className="paycol">
 
         <h3 className="title ">billing address</h3>
         <div className="inputbox">
@@ -47,7 +47,7 @@ function Paymethod() {
 
     </div>
 
-    <div className="col Paying">
+    <div className="paycol">
 
         <h3 className="title">payment</h3>
         <div className="inputbox">
@@ -58,7 +58,7 @@ function Paymethod() {
         </div>
 
         <div className="inputbox">
-            <span>name on card  :</span>
+            <span>card name  :</span>
             <input type="text" placeholder="mr. Mohamad"></input>
         </div>
 
