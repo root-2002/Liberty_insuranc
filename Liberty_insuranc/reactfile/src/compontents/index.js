@@ -7,3 +7,4 @@ export {default as Life } from './section/Header/page/life/life';
 export {default as Contracts} from './section/Header/page/contracts/Contracts';
 export {default as Health } from './section/Header/page/health/Health';
 export {default as HomeIns } from './section/Header/page/homeIns/homeIns';
+export {default as Paymethod } from './section/Header/paymethod/Paymethod';
