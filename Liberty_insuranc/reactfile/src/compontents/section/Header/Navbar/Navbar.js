@@ -1,12 +1,7 @@
 import './Navbar.css'
 import { Link } from 'react-router-dom';
 
-
-//note :- NavBar has not been Linked yet
-
 const Navbar = () => {
-  
-
   return (
     <div>
     <div className='divNav'>
