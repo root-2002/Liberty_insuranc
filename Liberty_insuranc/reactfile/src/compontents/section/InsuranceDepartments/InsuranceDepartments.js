@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 const InsuranceDepartments = () => {
   return (
     <>
-      <div className='container-card'>
+      <div className='container-card' id="services">
        <h1>OUR SERVICES</h1>
         <div className=' row'>
           <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
