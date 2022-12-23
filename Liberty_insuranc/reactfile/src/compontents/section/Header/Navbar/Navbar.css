@@ -1,5 +1,6 @@
 .navbar{
-    background-color: var(--maincolor);
+    background-color: var(--maincolor); 
+
 }
 .navbar a{
     color: black;

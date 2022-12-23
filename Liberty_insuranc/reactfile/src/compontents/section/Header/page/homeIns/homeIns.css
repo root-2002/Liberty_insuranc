@@ -74,7 +74,8 @@
     }
 
     .insTextImg-Img {
-        width: 500px
+        width: 450px;
+        align-self: center;
     }
 
 }
@@ -86,16 +87,16 @@
     .bgBackBone{
     display: none;}
     .insTextImg-Img {
-        width: 300px
+        width: 450px;
+        align-self: center;
     }
     #family-helth{
-        max-width: 400px;
-        width: 340px;
+        max-width: 500px;
+
         align-self: center;
     }
     #insLifeImg{
-        max-width: 400px;
-        width: 345px;
+        max-width: 500px;   
         align-self: center;
     }
 

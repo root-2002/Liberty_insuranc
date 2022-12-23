@@ -33,7 +33,7 @@
               <Link to='/Health'>
               <p className='footerText'> Health Insurance</p>
               </Link>
-              <Link to='/Home'>
+              <Link to='/homeIns'>
               <p className='footerText'>Home Insurance</p>
               </Link>
               <Link to='/Bank'>

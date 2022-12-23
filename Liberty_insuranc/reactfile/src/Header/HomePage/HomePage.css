@@ -1,37 +1,40 @@
 
 body {
 	font-family:'Courier New', Courier, monospace;
+	min-width: 516px;
 }
 .homeBanner{
-	background-image: url(../../../public/imgs/homeBanner.png);
+	background-image: url(../../../public/imgs/homeBanner1.png);
 	align-items: center;
-	height: 108vh;
 	margin: auto;
+	max-height: 706px;
 	width: 100%;
-	height: 100%;
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: repeat-x;
+	max-width: 1800px;
 }
 
 .headerH2{
-	position: relative;
+
 	text-align: center;
 	color: aliceblue;
 	padding-bottom: 3px;
 	font-family: 'Anek Devanagari', sans-serif;
+    margin-top: auto;
+	margin-bottom: auto;
+	
 }
 .homeBanner div h1{
 	text-align: center;
 	color: aliceblue;
-	padding-bottom: 60px;
 	font-family: 'Anek Devanagari', sans-serif;
+	
 }
 .header-cont{
-	padding-top: 40%;
+	padding-top: 21%;
 }
 .underHeader{
 	text-align: center;
-	padding-top: 75px;
 }
 .offercon{
 	padding: 10px;
@@ -75,4 +78,38 @@ body {
 }
 #homeBottomImg{
 	margin-left: 5%;
+}
+.thirdOff,
+.firstOff{
+	animation: animate 1.5s linear 1;
+}
+@keyframes animate{
+
+	0%{
+		filter: opacity(0);
+		padding-left: 200px;
+		
+	}
+	100%{
+		filter: opacity(1);
+		padding-left: 0px;
+		
+	}
+}
+
+.secOff{
+	animation: animateOfSec 1.5s linear 1;
+}
+@keyframes animateOfSec{
+
+	0%{
+		filter: opacity(0);
+		padding-right: 200px;
+		
+	}
+	100%{
+		filter: opacity(1);
+		padding-right: 0px;
+		
+	}
 }

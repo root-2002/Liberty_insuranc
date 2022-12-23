@@ -8,6 +8,7 @@ const Navbar = () => {
   
 
   return (
+    <div>
     <div className='divNav'>
     <nav className="navbar navbar-expand-lg py-3">
     <div className="container">
@@ -29,6 +30,7 @@ const Navbar = () => {
           </li>
           <li className="nav-item">
             <a href="#Services" className="nav-link">Services</a>
+           
           </li>
           <li className="nav-item">
             <a href="#div-footer" className="nav-link">About us</a>
@@ -38,6 +40,7 @@ const Navbar = () => {
     </div>
     
   </nav>
+  </div>
   </div>
   )
 }

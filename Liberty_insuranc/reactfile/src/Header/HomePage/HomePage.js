@@ -16,7 +16,7 @@ export default function HomePage() {
     </div>
     <div className='container-fluid '>
     <h2 className="underHeader">What Do We Have To Offer ?</h2>
-    <div className='container offercon'>
+    <div className='container offercon firstOff'>
       <div className='img-col'>
         <img src='./imgs/homeFamily.png' id='offImg' alt=" "></img>
       </div>
@@ -29,7 +29,7 @@ export default function HomePage() {
       </div>
     </div>
     </div>
-    <div className='container offercon'>
+    <div className='container offercon secOff'>
       <div className='text-col'>
         <h2 className='homeUpText'>Taking care</h2>
         <h1 className='homeUpText'>OF YOUR HOME</h1>
@@ -48,7 +48,7 @@ export default function HomePage() {
         </p>
       </div>
     </div>
-    <div className='container offercon'>
+    <div className='container offercon thirdOff'>
       <div className='img-col'>
         <img src='./imgs/homeCar.png' alt=" "></img>
       </div>
@@ -64,28 +64,3 @@ export default function HomePage() {
   )
 }
 
-
-/*<section>
-    
-    <header>
-      <div className="d-flex justify-content-center">
-        
-      <div className='container'>
-        <div className="bannertext">
-          <div className="text-area">
-            <h2>Welcome To Liberty Insurance</h2>
-          </div>
-          <p>"An ounce of prevention is better than a pound of cure"</p>
-          <br />
-          <p>At Liberty Insurance, we specialize in life insurance plans that provide peace of mind for your family.</p><br /><p>
-            Over the years, we have observed how complicated it has become to get protection. That's why we do all the heavy paperwork for you and simplify the whole process.</p><br /><p>
-            All you have to do is have a friendly, pressure-free chat with our experienced licensed advisors from the comfort of your home.</p>
-        </div>
-        </div>
-        <img src='./imgs/banner.svg' id="bannerHome"></img>
-      </div>
-    
-      
-
-    </header>
-  </section>*/
