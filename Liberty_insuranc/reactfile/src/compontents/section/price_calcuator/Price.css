@@ -13,7 +13,8 @@
 
     position: fixed;
     display: flex;
-    z-index: 5;
+    z-index: 1000;
+    margin-top:50px ;
 }
 .price-container{
     background-color: rgb(165, 26, 26);

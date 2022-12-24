@@ -4,7 +4,7 @@ import {InsuranceDepartments,ListOfFeaturesAndPrices,HomePage,Review } from '../
 
 function Home() {
   return (
-    <div>
+    <div className='container-home'>
     
     <HomePage/>
       <InsuranceDepartments/>

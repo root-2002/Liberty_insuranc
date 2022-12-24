@@ -20,7 +20,7 @@
   color: white;
   
 }
-.footerLinks a:hover, a:visited, a:link, a:active {
+.footerLinks a:hover a:visited a:link a:active {
   color: white;
   text-decoration: none;
 
@@ -69,4 +69,9 @@
   }
   
   
+}
+.liberty_insurance{
+
+  width: 200px;
+  padding-bottom:10px ;
 }
