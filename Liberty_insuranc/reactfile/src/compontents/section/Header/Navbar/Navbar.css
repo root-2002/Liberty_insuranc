@@ -1,7 +1,113 @@
-.navbar{
-    background-color: var(--maincolor); 
+.logo{
+  
+  height: 30px;
+}
+.nava{
+margin-left:75%;
 
 }
-.navbar a{
-    color: black;
+@media screen  and (max-width: 992px){
+  .nava{
+    margin-left: 0%;
+    }
+  
+}
+.navbar{
+    background-color: var(--edge);
+    min-height: 55px;
+   }
+#insurs:hover .mega-box{
+    
+    top: 60px;
+    opacity: 1;
+    visibility: visible;
+  }
+  .mega-box{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0 30px;
+    top: 100px;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .mega-box  .content{
+    background: var(--edge);
+    padding: 10px 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border:1px;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
+  }
+ 
+  .navLink{
+    text-decoration: none;
+    color: #fff;
+   
+  }
+  .navLink :hover{
+    color: #fff;
+  }
+.nav-link{
+    text-decoration: none;
+    max-width: 150px;
+}
+.navbar-brand
+{
+    text-decoration: none;
+}
+.navback{
+    height: 54px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px;
+
+}
+.nav-item{
+  max-width: 150px;
+}
+@media  screen and (max-width: 972px) {
+  #insurs:hover .mega-box{
+    top:125px;
+  }
+ 
+}
+.content .row{
+  max-width: 20px;
+  min-width: 150px;
+  
+}
+
+@media screen  and (min-width: 1200px){
+  .content .row{
+    max-width: 210px;
+    
+    
+  }
+  
+}
+@media screen  and (max-width: 1001px){
+ 
+  .mega-links{
+    display:none;
+  }
+
+  
+}
+@media screen  and (max-width: 801px){
+  .mega-box  .content{
+    display: grid;
+  }
+  .mega-links{
+   margin-left: 30px;
+    display:flex;
+  }
+  .content .row{
+    max-width: 100%;
+  }
+  
 }

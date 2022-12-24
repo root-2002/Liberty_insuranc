@@ -1,15 +1,14 @@
-import {InsuranceDepartments,ListOfFeaturesAndPrices,HomePage } from '../../../index'
+import {InsuranceDepartments,ListOfFeaturesAndPrices,HomePage,Review } from '../../../index'
 
 
 
 function Home() {
   return (
-    <div>
+    <div className='container-home'>
     
     <HomePage/>
       <InsuranceDepartments/>
-      
-      
+      <Review/>      
     </div>
    
   )

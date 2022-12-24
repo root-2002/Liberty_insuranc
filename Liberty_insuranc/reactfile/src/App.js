@@ -1,11 +1,9 @@
 import './App.css';
-import { Home ,Car,NotFound ,Bank,Life,Contracts , Health, HomeIns} from './compontents/index'
+import { Home ,Car,NotFound ,Bank,Life,Contracts , Health, HomeIns ,Paymethod} from './compontents/index'
 import {Navbar , Footer ,Price} from './compontents/section/index'
 import {BrowserRouter , Route ,Routes} from 'react-router-dom'
 import { Component } from 'react';
 import ScrollToTop from './compontents/section/ScrollToTheTop'
-
-
 
 function App() {
  
@@ -24,13 +22,18 @@ function App() {
          <Route path='/Health' element={<Health/>}/>
         <Route path='/Bank' element={<Bank/>}/>
         <Route path='/homeIns' element={<HomeIns/>}/>
+        <Route path='/Paymethod' element={<Paymethod/>}/> 
          <Route path='*' element={<NotFound/>} />
       </Routes>
+  
     <Footer/>
     
     </BrowserRouter>
 
-    
+
+
+
+
   
   );
 }

@@ -4,20 +4,25 @@ a:hover, a:visited, a:link, a:active
 }
 .container-card
 {
-    padding: 10%;
-    
+    padding: 14%;
+    margin-top: -76px;
+    background: #f8f9fa;
+}
+h1{
+    text-align: center;
+    font-weight: 800;
+}
+.row{
+    margin-top: 15px;
 }
 .Card-ins{
-    
-    border-radius: 10px;
-    width: 100%;
-    min-width: 100px;
- background-color: #fff;
+   border-radius: 10px;
+   width: 100%;
+   background-color: #fff;
    padding: 20px;
    margin-left: 10px;
    margin-top: 20px;
-   box-shadow: 4px 2px 30px var(--seccolor),1px 3px 5px black ;
-   min-height: 94%;
+   min-height: 97%;
    border:transparent;
    border-style: solid;
 }
@@ -36,9 +41,6 @@ a:hover, a:visited, a:link, a:active
     padding-right: 30px;;
     
 }
-
-
-
 .link
 {
     text-decoration: none;
@@ -50,9 +52,8 @@ a:hover, a:visited, a:link, a:active
     position: relative;
     margin-left:auto;
     margin-right: auto;
-    padding: 10px;
-    
-
+    padding: 3px;
+    width: 50px;
 }
 @media screen and (max-width:796px) {
     .Card-ins{

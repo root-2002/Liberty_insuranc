@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 const InsuranceDepartments = () => {
   return (
     <>
-      <div className='container-card'>
-
+      <div className='container-card' id="services">
+       <h1>OUR SERVICES</h1>
         <div className=' row'>
           <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
             <Link to='/car'>
@@ -45,7 +45,7 @@ const InsuranceDepartments = () => {
                 <div className='mCardBody card-body'>
                   <img src={img2} alt='img' />
                   <h2 className=" h2 cardsTextHomePage">Life Insurance</h2>
-                  <p className=' pr cardsTextHomePage'>Protect yourself and secure your life</p>
+                  <p className=' pr cardsTextHomePage'>Protect and secure yourself </p>
                 </div>
 
               </div>
@@ -58,7 +58,7 @@ const InsuranceDepartments = () => {
                 <div className='mCardBody card-body'>
                   <img src={img3} alt='img' />
                   <h2 className=" h2 cardsTextHomePage">Health Insurance</h2>
-                  <p className=' pr' cardsTextHomePage>Your health is more important than your money</p>
+                  <p className=' pr' cardsTextHomePage>Your health is very important </p>
                 </div>
 
               </div>
