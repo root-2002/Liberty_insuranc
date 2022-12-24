@@ -36,11 +36,11 @@ margin-left:75%;
     display: flex;
     width: 100%;
     justify-content: space-between;
+    border:1px;
+    border-color: rgba(255, 255, 255, 0);
+    border-radius: 20px;
   }
-  .mega-box .content {
-   
-    line-height: 50px;
-  }
+ 
   .navLink{
     text-decoration: none;
     color: #fff;
@@ -80,17 +80,33 @@ ul {
   min-width: 150px;
   
 }
-@media  screen and (max-width: 1013px) {
-  
-  .mega-links{
-    display: none;
-  }
-}
+
 @media screen  and (min-width: 1200px){
   .content .row{
     max-width: 210px;
     
     
+  }
+  
+}
+@media screen  and (max-width: 1001px){
+ 
+  .mega-links{
+    display:none;
+  }
+
+  
+}
+@media screen  and (max-width: 801px){
+  .mega-box  .content{
+    display: grid;
+  }
+  .mega-links{
+   margin-left: 30px;
+    display:flex;
+  }
+  .content .row{
+    max-width: 100%;
   }
   
 }

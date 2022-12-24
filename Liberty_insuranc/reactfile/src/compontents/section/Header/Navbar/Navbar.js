@@ -60,7 +60,7 @@ const Navbar = () => {
                           </ul>
                         </div>
                         <div className='row'>
-                        <Link className='navLink' to='/Home'><header><ul>Home Insurance</ul></header></Link>
+                        <Link className='navLink' to='/homeins'><header><ul>Home Insurance</ul></header></Link>
                           <ul className="mega-links">
                             <li><p className='pra'>protect your home</p></li>
                           </ul>
