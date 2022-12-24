@@ -31,37 +31,37 @@ const Navbar = () => {
                     <div className='mega-box'>
                       <div className='content'>
                         <div className='row'>
-                        <Link className='navLink' to='/car'> <header><ul>Car Insurance</ul></header> </Link>
+                        <Link className='navLink' to='/car'> <header data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><ul>Car Insurance</ul></header> </Link>
                           <ul className='mega-links'>
                             <li><p className='pra'>we will help you to save your car</p></li>
                           </ul>            
                         </div>
                         <div className='row'>
-                        <Link className='navLink' to='/Travel'> <header><ul>Travel Insurance</ul></header> </Link>
+                        <Link className='navLink' to='/Travel'> <header data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><ul>Travel Insurance</ul></header> </Link>
                           <ul className="mega-links">
                             <li><p className='pra'>Save your money from losing</p></li>
                           </ul>
                         </div>
                         <div className='row'>
-                        <Link className='navLink' to='/Life'><header><ul>Life Insurance</ul></header></Link>
+                        <Link className='navLink' to='/Life'><header data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><ul>Life Insurance</ul></header></Link>
                           <ul className='mega-links'>
                             <li><p className='pra'>Protect yourself and your life</p></li>
                           </ul>
                         </div>
                         <div className='row'>
-                        <Link className='navLink' to='/Health'><header><ul>Health Insurance</ul></header></Link>
+                        <Link className='navLink' to='/Health'><header data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><ul>Health Insurance</ul></header></Link>
                           <ul className="mega-links">
                             <li><p className='pra'>Don't Worry about your health</p></li>
                           </ul>
                         </div>
                         <div className='row'>
-                        <Link className='navLink' to='/Contracts'><header><ul>Contracts Insurance</ul></header></Link>
+                        <Link className='navLink' to='/Contracts'><header data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><ul>Contracts Insurance</ul></header></Link>
                           <ul className="mega-links">
                             <li><p className='pra'> We'll help you save in building</p></li>
                           </ul>
                         </div>
                         <div className='row'>
-                        <Link className='navLink' to='/homeins'><header><ul>Home Insurance</ul></header></Link>
+                        <Link className='navLink' to='/homeins'><header data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><ul>Home Insurance</ul></header></Link>
                           <ul className="mega-links">
                             <li><p className='pra'>protect your home</p></li>
                           </ul>
