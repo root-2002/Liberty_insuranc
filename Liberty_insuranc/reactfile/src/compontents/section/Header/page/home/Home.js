@@ -1,4 +1,4 @@
-import {InsuranceDepartments,ListOfFeaturesAndPrices,HomePage,Review } from '../../../index'
+import {InsuranceDepartments,HomePage,Review } from '../../../index'
 
 
 

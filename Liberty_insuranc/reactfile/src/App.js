@@ -2,7 +2,6 @@ import './App.css';
 import { Home ,Car,NotFound ,Bank,Life,Contracts , Health, HomeIns ,Paymethod} from './compontents/index'
 import {Navbar , Footer ,Price} from './compontents/section/index'
 import {BrowserRouter , Route ,Routes} from 'react-router-dom'
-import { Component } from 'react';
 import ScrollToTop from './compontents/section/ScrollToTheTop'
 
 function App() {

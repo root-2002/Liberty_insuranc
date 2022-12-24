@@ -58,7 +58,7 @@ const InsuranceDepartments = () => {
                 <div className='mCardBody card-body'>
                   <img src={img3} alt='img' />
                   <h2 className=" h2 cardsTextHomePage">Health Insurance</h2>
-                  <p className=' pr' cardsTextHomePage>Your health is very important </p>
+                  <p className=' pr cardsTextHomePage'>Your health is very important </p>
                 </div>
 
               </div>

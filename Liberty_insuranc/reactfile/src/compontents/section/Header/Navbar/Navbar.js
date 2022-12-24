@@ -9,11 +9,11 @@ const Navbar = () => {
   return (
     <div>
 
-    <nav class="navbar fixed-top navbar-expand-lg ">
+    <nav className="navbar fixed-top navbar-expand-lg ">
             <div className="container">
               <a className="navbar-brand nav-link" href="/"><img className='logo' alt='logo' src='./imgs/logo.png'/></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
     </button>
               <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div className='nava'>
@@ -24,6 +24,7 @@ const Navbar = () => {
                       <div id="home-link">
                   <a className="nav-link " aria-current="page" href="/">Home</a>
                      </div>
+                     
                    </li>
                   <li className="nav-item" id="insurs">
                     <a id="insur" className='nav-link'>Insurance</a>
@@ -37,7 +38,7 @@ const Navbar = () => {
                         </div>
                         <div className='row'>
                         <Link className='navLink' to='/Bank'> <header><ul>Bank Insurance</ul></header> </Link>
-                          <ul class="mega-links">
+                          <ul className="mega-links">
                             <li><p className='pra'>Save your money from losing</p></li>
                           </ul>
                         </div>
@@ -49,7 +50,7 @@ const Navbar = () => {
                         </div>
                         <div className='row'>
                         <Link className='navLink' to='/Health'><header><ul>Health Insurance</ul></header></Link>
-                          <ul class="mega-links">
+                          <ul className="mega-links">
                             <li><p className='pra'>Don't Worry about your health</p></li>
                           </ul>
                         </div>
@@ -73,6 +74,11 @@ const Navbar = () => {
                       <div id="home-link">
                   <a className="nav-link " aria-current="page" href="#Services">Services</a>
                      </div>
+                   </li>
+                   <li className="nav-item">
+                      <div id="home-link">
+                  <a className="nav-link " aria-current="page" href="/Paymethod">Payment</a>
+                     </div>  
                    </li>
                 </ul>
                 </div>

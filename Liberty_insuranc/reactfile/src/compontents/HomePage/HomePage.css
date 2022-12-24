@@ -1,8 +1,4 @@
 
-body {
-	font-family:'Courier New', Courier, monospace;
-	min-width: 516px;
-}
 .homeBanner{
 	background-image: url(../../../public/imgs/homeBanner1.png);
 	align-items: center;

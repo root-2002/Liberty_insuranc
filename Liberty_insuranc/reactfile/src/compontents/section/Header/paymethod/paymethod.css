@@ -1,4 +1,6 @@
 .payCon {
+    margin-top:100px;
+    margin-bottom:100px ;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,7 +11,7 @@
 }
 .payCon  .payForm1 {
     padding: 20px;
-    width: 750px;
+    width: 700px;
     background:#fff;
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
 }
@@ -25,7 +27,7 @@
 
 .payCon  .payForm1 .payrow .paycol .title{
    font-size: 20px;
-    paycolor: #333 ;
+    color: #333 ;
     padding-bottom: 5px;
     text-transform: uppercase;
 }

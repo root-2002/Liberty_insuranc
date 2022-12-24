@@ -9,8 +9,12 @@ font-family: 'Anek Devanagari', sans-serif;
    
 }
 :root{
-    --maincolor :#D8E3E7;
+    --maincolor :#126E82;
     --seccolor :#51C4D3;
     --infocolor :#126E82;
-    --edge :rgb(59,63,216);
+    --edge :#132C33;
+}
+body {
+	font-family:'Courier New', Courier, monospace;
+	min-width: 516px;
 }

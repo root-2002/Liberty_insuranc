@@ -13,12 +13,12 @@ margin-left:75%;
   
 }
 .navbar{
-    background-color: var(--edge);
+    background-color: var(--maincolor);
     min-height: 55px;
    }
 #insurs:hover .mega-box{
     
-    top: 60px;
+    top: 63px;
     opacity: 1;
     visibility: visible;
   }
@@ -32,7 +32,7 @@ margin-left:75%;
     visibility: hidden;
   }
   .mega-box  .content{
-    background: var(--edge);
+    background: var(--maincolor);
     padding: 10px 10px;
     display: flex;
     width: 100%;
@@ -45,7 +45,6 @@ margin-left:75%;
   .navLink{
     text-decoration: none;
     color: #fff;
-   
   }
   .navLink :hover{
     color: #fff;
@@ -53,6 +52,7 @@ margin-left:75%;
 .nav-link{
     text-decoration: none;
     max-width: 150px;
+    
 }
 .navbar-brand
 {
@@ -69,10 +69,12 @@ ul {
 }
 .nav-item{
   max-width: 150px;
+  font-size: 20px;
+  color: white;
 }
 @media  screen and (max-width: 972px) {
   #insurs:hover .mega-box{
-    top:125px;
+    top:150px;
   }
  
 }
@@ -110,4 +112,8 @@ ul {
     max-width: 100%;
   }
   
+}
+.pra{
+  color: white;
+  font-size: 18px;
 }
