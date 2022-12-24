@@ -13,8 +13,8 @@
 #homeInsBG{
     background-image: url(../../../../../../public/imgs/homeInsImg.png);
 }
-#bankInsBG{
-    background-image: url(../../../../../../public/imgs/bankBg.png);
+#travelBG{
+    background-image: url(../../../../../../public/imgs/travel-hero.png);
 }
 .Ins-Bg {
     height: 90vh;

@@ -37,8 +37,8 @@
               <Link to='/homeIns'>
               <p className='footerText'>Home Insurance</p>
               </Link>
-              <Link to='/Bank'>
-              <p className='footerText'>Bank Insurance</p>
+              <Link to='/Travel'>
+              <p className='footerText'>Travel Insurance</p>
               </Link>
               <Link to='/Contracts'>
               <p className='footerText'>Contracts Insurance</p>

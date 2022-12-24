@@ -37,7 +37,7 @@ const Navbar = () => {
                           </ul>            
                         </div>
                         <div className='row'>
-                        <Link className='navLink' to='/Bank'> <header><ul>Bank Insurance</ul></header> </Link>
+                        <Link className='navLink' to='/Travel'> <header><ul>Travel Insurance</ul></header> </Link>
                           <ul className="mega-links">
                             <li><p className='pra'>Save your money from losing</p></li>
                           </ul>

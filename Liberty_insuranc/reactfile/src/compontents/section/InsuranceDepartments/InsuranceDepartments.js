@@ -25,7 +25,7 @@ const InsuranceDepartments = () => {
             </Link>
           </div>
           <div className='Mcard col-xs-12 col-sm-12 col-md-5 col-lg-4 '>
-            <Link to='/Bank'>
+            <Link to='/Travel'>
               <div className=' Card-ins'>
                 <div className='mCardBody card-body'>
 
